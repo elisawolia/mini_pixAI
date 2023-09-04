@@ -1,0 +1,25 @@
+version: "1"
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: ./Dockerfile
+    container_name: backend
+    networks:
+      - pixai
+    ports:
+      - "8080:8080"
+  ui:
+    depends_on:
+      - backend
+    build:
+      context: ./app-ui
+      dockerfile: ./Dockerfile
+    container_name: ui
+    networks:
+      - pixai
+    ports:
+      - "3000:3000"
+networks:
+  pixai:
+    driver: bridge

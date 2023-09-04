@@ -1,0 +1,4 @@
+rootProject.name = 'web-app'
+
+include(':backend')
+include(':app-ui')
