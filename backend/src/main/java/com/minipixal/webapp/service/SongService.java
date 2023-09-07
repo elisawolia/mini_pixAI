@@ -4,16 +4,23 @@ import com.minipixal.webapp.domain.Song;
 import com.minipixal.webapp.domain.SongResponse;
 import org.springframework.stereotype.Component;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Сервис для взаимодействия с хранилищем песен
+ */
 @Component
 public class SongService {
 
     public static final String FILE_PATH = "src/main/resources/songs.txt";
 
+    /**
+     * Получение списка песен
+     */
     public SongResponse readSongs() {
         SongResponse response = new SongResponse();
         List<Song> songsList = new ArrayList<>();
@@ -32,12 +39,15 @@ public class SongService {
                 }
             }
         } catch (IOException e) {
-            System.out.println("SongService::readSongs fot exception = " + e.getMessage());
+            System.out.println("SongService::readSongs got exception = " + e.getMessage());
         }
         response.setSongsList(songsList);
         return response;
     }
 
+    /**
+     * Получение информации о конкретной песне
+     */
     public Song getSongById(Integer id) {
         SongResponse songs = readSongs();
         return songs

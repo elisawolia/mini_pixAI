@@ -32,7 +32,7 @@ public class AppConfig {
             .registerModule(new JavaTimeModule());
 
     @Bean("AudioRestTemplate")
-    public RestTemplate audioRestTemplate(@Value("http://localhost:9890/") String baseUrl) {
+    public RestTemplate audioRestTemplate(@Value("http://95.163.229.127:9890/") String baseUrl) {
         RestTemplate restTemplate = new RestTemplate();
         restTemplate.setUriTemplateHandler(new DefaultUriBuilderFactory(baseUrl));
         List<HttpMessageConverter<?>> messageConverters = new ArrayList<>();
@@ -43,10 +43,9 @@ public class AppConfig {
     }
 
     @Bean("VideoRestTemplate")
-    public RestTemplate videoRestTemplate(@Value("http://localhost:9875") String baseUrl) {
+    public RestTemplate videoRestTemplate(@Value("http://95.163.229.127:9875") String baseUrl) {
         RestTemplate restTemplate = new RestTemplate();
         restTemplate.setUriTemplateHandler(new DefaultUriBuilderFactory(baseUrl));
-
         return restTemplate;
     }
 
