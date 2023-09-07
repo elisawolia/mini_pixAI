@@ -9,7 +9,7 @@ function App() {
    const [songs, setSongs] = useState([]);
 
    useEffect(() => {
-      fetch('http://localhost:8080/api/songs_list')
+      fetch('http://95.163.229.127:8080/api/songs_list')
          .then((res) => res.json())
          .then((data) => {
             console.log(data);
