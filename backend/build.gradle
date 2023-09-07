@@ -26,6 +26,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'javax.ws.rs:jsr311-api:1.1.1'
 	compileOnly 'org.projectlombok:lombok'
+	implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.14'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
