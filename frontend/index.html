@@ -1,1 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PixAI</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /* Ваши стили здесь */
+        /* Стили для контейнера кнопок и кнопок справа и слева */
+        .nav-buttons-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 3vw; /* Горизонтальные отступы по 3% от ширины экрана */
+        }
+        .nav-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .nav-button {
+            margin: 1.5vh 0; /* Вертикальные отступы по 1.5% от высоты экрана */
+            margin-left: 2cm; /* Отступ слева на 2 см */
+            margin-right: 2cm; /* Отступ справа на 2 см */
+        }
+        .nav-button img {
+            max-width: 100px;
+        }
+
+        /* Стили для всплывающей подсказки */
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .tooltip-text {
+            visibility: hidden;
+            background-color: yellow; /* Желтый фон */
+            color: #000;
+            text-align: center;
+            border-radius: 5px;
+            padding: 10px;
+            position: absolute;
+            bottom: 150%;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .tooltip:hover .tooltip-text {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        /* Стили для кнопки "Начать игру" */
+        .start-game-button-container {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        /* Стиль для подсказки кнопки "Начать игру" */
+        .start-game-button-tooltip .tooltip-text {
+            background-color: yellow; /* Желтый фон */
+        }
+
+        /* Добавлены стили для переключателя языков */
+        .language-switch {
+            display: flex; /* Добавляем flex-контейнер */
+            align-items: center; /* Выравниваем по вертикали */
+        }
+
+        .language-switch button {
+            margin-right: 5px;
+            padding: 5px 10px;
+            font-size: 14px;
+        }
+
+        /* Добавлены стили для навигационного меню */
+        nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <h1>PixAI</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+            </ul>
+        </nav>
+        <!-- Добавляем переключатель языков -->
+        <div class="language-switch">
+            <button onclick="toggleLanguage('ru')">RU</button>
+            <button onclick="toggleLanguage('en')">EN</button>
+        </div>
+    </header>
+
+    <!-- Картинка на весь экран -->
+    <div class="fullscreen-image-container">
+        <!-- Контейнер для кнопок слева и справа -->
+        <div class="nav-buttons-container">
+            <!-- Кнопки слева -->
+            <div class="nav-buttons">
+                <div class="tooltip">
+                    <a href="page2.html" class="nav-button">
+                        <img src="images/left_button_image1.PNG" alt="Left Button 1">
+                    </a>
+                    <span class="tooltip-text">Домра</span>
+                </div>
+                <div class="tooltip">
+                    <a href="page2.html" class="nav-button">
+                        <img src="images/left_button_image2.PNG" alt="Left Button 2">
+                    </a>
+                    <span class="tooltip-text">Гитара</span>
+                </div>
+                <div class="tooltip">
+                    <a href="page2.html" class="nav-button">
+                        <img src="images/left_button_image3.jpeg" alt="Left Button 3">
+                    </a>
+                    <span class="tooltip-text">Тромбон</span>
+                </div>
+            </div>
+
+            <!-- Основная картинка -->
+            <img src="images/IMG_7791.JPG" alt="Fullscreen Image">
+
+            <!-- Кнопки справа -->
+            <div class="nav-buttons">
+                <div class="tooltip">
+                    <a href="page2.html" class="nav-button">
+                        <img src="images/right_button_image1.PNG" alt="Right Button 1">
+                    </a>
+                    <span class="tooltip-text">Рояль</span>
+                </div>
+                <div class="tooltip">
+                    <a href="page2.html" class="nav-button">
+                        <img src="images/right_button_image2.PNG" alt="Right Button 2">
+                    </a>
+                    <span class="tooltip-text">Виолончель</span>
+                </div>
+                <div class="tooltip">
+                    <a href="page2.html" class="nav-button">
+                        <img src="images/right_button_image3.PNG" alt="Right Button 3">
+                    </a>
+                    <span class="tooltip-text">Барабаны</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Кнопка "Начать игру" посередине картинки -->
+        <div class="start-game-button-container">
+            <div class="tooltip start-game-button-tooltip">
+                <a href="#" class="start-game-button">Start Game</a>
+                <span class="tooltip-text">To start the game, find your instrument on the left or right and click on it.</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подвал -->
+    <footer>
+        <ul>
+            <li><a href="terms.html">Пользовательское соглашение</a></li>
+            <li><a href="privacy.html">Политика конфиденциальности</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        // JavaScript для отображения подсказки при наведении на кнопку "Начать игру"
+        const startGameButton = document.querySelector(".start-game-button");
+        const tooltipText = document.querySelector(".start-game-button-tooltip .tooltip-text");
+
+        startGameButton.addEventListener("mouseover", () => {
+            tooltipText.style.visibility = "visible";
+        });
+
+        // Функция для переключения языка на "RU" или "EN"
+        function toggleLanguage(language) {
+            // Здесь можно добавить логику для смены языка на странице
+            // Например, изменить тексты и названия кнопок на выбранный язык
+            if (language === 'ru') {
+                // Установить русский язык
+                // Пример: document.querySelector('.some-element').textContent = 'Текст на русском';
+                document.querySelector("h1").textContent = "PixAI";
+                document.querySelectorAll("nav ul li a")[0].textContent = "О проекте";
+                document.querySelectorAll("nav ul li a")[1].textContent = "Медиа";
+                document.querySelectorAll("nav ul li a")[2].textContent = "Отзывы";
+                document.querySelector(".start-game-button").textContent = "Начать игру";
+                tooltipText.textContent = "Для того, чтобы начать игру, найди слева или справа свой инструмент и нажми на него.";
+            } else if (language === 'en') {
+                // Установить английский язык
+                // Пример: document.querySelector('.some-element').textContent = 'English Text';
+                document.querySelector("h1").textContent = "PixAI";
+                document.querySelectorAll("nav ul li a")[0].textContent = "About";
+                document.querySelectorAll("nav ul li a")[1].textContent = "Media";
+                document.querySelectorAll("nav ul li a")[2].textContent = "Reviews";
+                document.querySelector(".start-game-button").textContent = "Start Game";
+                tooltipText.textContent = "To start the game, find your instrument on the left or right and click on it.";
+            }
+        }
+    </script>
+</body>
+</html>
 

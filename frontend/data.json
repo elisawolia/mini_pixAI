@@ -1,0 +1,90 @@
+{
+    "siteName": {
+      "ru": "PixAI",
+      "en": "PixAI"
+    },
+    "pages": [
+      {
+        "title": {
+          "ru": "Главная",
+          "en": "Home"
+        },
+        "url": "index.html"
+      },
+      {
+        "title": {
+          "ru": "О проекте",
+          "en": "About"
+        },
+        "url": "about.html"
+      },
+      {
+        "title": {
+          "ru": "Медиа",
+          "en": "Media"
+        },
+        "url": "media.html"
+      },
+      {
+        "title": {
+          "ru": "Отзывы",
+          "en": "Reviews"
+        },
+        "url": "reviews.html"
+      },
+      {
+        "title": {
+          "ru": "Пользовательское соглашение",
+          "en": "Terms of Service"
+        },
+        "url": "terms.html"
+      },
+      {
+        "title": {
+          "ru": "Политика конфиденциальности",
+          "en": "Privacy Policy"
+        },
+        "url": "privacy.html"
+      }
+    ],
+    "images": {
+      "catImage": "images/IMG_7800.gif",
+      "leftButtonImage1": "images/left_button_image1.PNG",
+      "leftButtonImage2": "images/left_button_image2.PNG",
+      "leftButtonImage3": "images/left_button_image3.jpeg",
+      "rightButtonImage1": "images/right_button_image1.PNG",
+      "rightButtonImage2": "images/right_button_image2.PNG",
+      "rightButtonImage3": "images/right_button_image3.PNG"
+    },
+    "tooltipTexts": {
+      "leftButton1": {
+        "ru": "Домра",
+        "en": "Balalaika"
+      },
+      "leftButton2": {
+        "ru": "Гитара",
+        "en": "Guitar"
+      },
+      "leftButton3": {
+        "ru": "Тромбон",
+        "en": "Trombone"
+      },
+      "rightButton1": {
+        "ru": "Рояль",
+        "en": "Piano"
+      },
+      "rightButton2": {
+        "ru": "Виолончель",
+        "en": "Cello"
+      },
+      "rightButton3": {
+        "ru": "Барабаны",
+        "en": "Drums"
+      },
+      "startGameButton": {
+        "ru": "Для того, чтобы начать игру, найди слева или справа свой инструмент и нажми на него.",
+        "en": "To start the game, find your instrument on the left or right and click on it."
+      }
+    }
+  }
+  

@@ -1,0 +1,270 @@
+/* Шапка */
+
+header {
+    background-color: #fff; /* Белый цвет фона */
+    color: #000; /* Черный цвет текста (или другой цвет по вашему выбору) */
+    display: flex; /* Отображение элементов внутри шапки как flex-контейнера */
+    justify-content: space-between; /* Равномерное распределение элементов по горизонтали */
+    align-items: center; /* Выравнивание элементов по вертикали по центру */
+    padding: 20px; /* Внутренний отступ шапки */
+}
+
+/* Стили для заголовка "Вторая страница" */
+header h1 {
+    margin: 0; /* Убираем внешний отступ для заголовка */
+}
+
+/* Стиль для заголовка "PixAI" с отступом слева */
+header h1 {
+    margin-left: 4cm; /* Добавляем отступ слева на 6 сантиметров */
+}
+
+/* Стиль для картинки на первой странице */
+.fullscreen-image img {
+    width: 100%; /* Растягиваем картинку на всю ширину экрана */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+/* Оформление вопросов и ответов */
+.question {
+    margin: 20px; /* Внешний отступ для каждого вопроса */
+}
+
+.question h2 {
+    font-size: 1.2em; /* Размер шрифта заголовка вопроса */
+}
+
+label {
+    display: block; /* Отображаем каждый ответ на новой строке */
+    margin-bottom: 10px; /* Внешний отступ между ответами */
+}
+/* Установите высоту и ширину html и body на 100% */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0; /* Уберите внешние отступы (margin) */
+    padding: 0; /* Уберите внутренние отступы (padding) */
+}
+
+/* Растянутая картинка на весь экран */
+.fullscreen-image img {
+    width: 100%; /* Увеличиваем ширину в два раза */
+    height: auto;
+    object-fit: cover; /* Подогнать изображение по размерам, сохраняя пропорции */
+    margin-bottom: 20px; /* Добавляем отступ снизу */
+}
+
+
+
+@keyframes run-cat {
+    0% {
+        transform: translateX(0) translateY(-5cm); /* Начальная позиция, выше на 5 сантиметров */
+    }
+    100% {
+        transform: translateX(calc(100% + 100px)) translateY(-5cm); /* Конечная позиция справа за пределами экрана, выше на 5 сантиметров */
+    }
+}
+
+/* Стиль для изменения цвета текста ссылки "О проекте" */
+header nav ul li a {
+    color: #000; /* Черный цвет текста */
+}
+/* Подключение кастомного шрифта */
+@font-face {
+    font-family: 'PixarFont'; /* Имя шрифта, которое вы придумали */
+    src: url('fonts/CharlemagneC.ttf') format('truetype'); /* Путь к файлу шрифта и указание формата */
+    /* Дополнительные форматы шрифта, если необходимо */
+}
+
+/* Применение шрифта к тексту */
+body {
+    font-family: 'PixarFont', sans-serif; /* Имя шрифта + запасной шрифт (sans-serif) */
+}
+/* Горизонтальное расположение ссылок в шапке */
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Отображение ссылок как горизонтального списка */
+}
+
+header nav ul li {
+    margin-right: 20px; /* Расстояние между ссылками */
+}
+
+/* Стиль для ссылок в шапке */
+header nav ul li a {
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+    color: #000; /* Черный цвет текста ссылок */
+    font-weight: bold; /* Жирный шрифт для ссылок (по желанию) */
+}
+
+/* Стиль для подвала */
+footer {
+    background-color: #000; /* Черный цвет фона подвала */
+    color: #fff; /* Белый цвет текста в подвале */
+    text-align: center; /* Выравнивание текста по центру */
+    padding: 10px 0; /* Внутренний отступ подвала */
+}
+
+
+/* Стиль для подвала */
+footer {
+    background-color: #fff; /* Белый цвет фона подвала */
+    color: #000; /* Черный цвет текста в подвале */
+    text-align: center; /* Выравнивание текста по центру */
+    padding: 10px 0; /* Внутренний отступ подвала */
+}
+
+/* Стиль для ссылок в подвале */
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline; /* Отображение ссылок горизонтально */
+    margin-right: 20px; /* Расстояние между ссылками */
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #000; /* Черный цвет текста ссылок в подвале */
+    font-weight: bold;
+}
+/* Стиль для контейнера с растянутой картинкой и кнопкой */
+.fullscreen-image-container {
+    position: relative;
+    text-align: center;
+}
+
+
+/* Стиль кнопки "готов играть" в стиле Pixar */
+.start-game-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 24px;
+    background-color: #FFD200;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.start-game-button:hover {
+    background-color: #FBC400;
+}
+
+
+#startGameButton {
+    background-color: #ff6f61;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#startGameButton:hover {
+    background-color: #ff4b39;
+}
+
+
+/* Стиль для картинки на первой странице */
+.fullscreen-image img {
+    max-width: 100%; /* Максимальная ширина картинки не будет превышать ширину экрана */
+    width: auto;
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+/* style.css */
+
+/* style.css */
+
+/* style.css */
+
+body.background-image-page {
+    position: relative; /* Устанавливаем позицию как относительную для body */
+    min-height: 100vh; /* Минимальная высота равная высоте видимого экрана */
+    margin: 0; /* Убираем внешние отступы (margin) */
+    padding: 0; /* Убираем внутренние отступы (padding) */
+    overflow: hidden; /* Скрываем содержимое, которое выходит за пределы body */
+
+  /* Добавляем фоновый слой */
+&::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/IMG_7800.gif'); /* Путь к вашему изображению */
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1; /* Помещаем фоновый слой под контент */
+}
+
+
+
+}
+
+/* Стили для кнопки "Начать игру" в стиле Pixar */
+.start-game-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 24px;
+    background-color: #FFD200;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.start-game-button:hover {
+    background-color: #FBC400;
+}
+
+/* Растянутая картинка на весь экран */
+.fullscreen-image-container {
+    position: relative;
+    text-align: center;
+}
+
+.fullscreen-image-container img {
+    max-width: 50%; /* Уменьшаем изображение в два раза */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.start-game-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Стиль для кнопки "Записать аудио" в стиле Pixar */
+.record-button {
+    background-color: #FFD200;
+    color: #000;
+    padding: 15px 30px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'fonts/CharlemagneC.ttf', sans-serif; /* Имя шрифта Pixar */
+    text-decoration: none; /* Убираем подчеркивание текста */
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.record-button:hover {
+    background-color: #FBC400;
+}

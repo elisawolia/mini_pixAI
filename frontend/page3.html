@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Третья страница</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /* Ваши стили CSS */
+
+        /* Стили для кнопки "Записать аудио" в стиле Pixar */
+        .page-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .record-button {
+            background-color: #FFD200;
+            color: #000;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 50px; /* Закругленные углы для создания стиля Pixar */
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            position: relative; /* Необходимо для добавления тени */
+            overflow: hidden; /* Необходимо для обрезания тени */
+        }
+
+        .record-button:before {
+            content: '';
+            position: absolute;
+            width: 120%; /* Увеличиваем ширину тени */
+            height: 100%;
+            background: radial-gradient(circle at 50%, transparent, #000 70%); /* Радиальный градиент для тени */
+            top: 0;
+            left: 0;
+            z-index: -1; /* Размещаем тень под кнопкой */
+            transition: transform 0.3s ease;
+            transform: scale(0); /* Изначально тень масштабирована до 0 */
+        }
+
+        .record-button:hover {
+            background-color: #FBC400;
+        }
+
+        .record-button:hover:before {
+            transform: scale(1); /* При наведении масштабируем тень до 1 (полный размер кнопки) */
+        }
+
+        .cloud-container {
+            position: relative;
+            background-color: #ffffff;
+            border: 2px solid #000000;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 400px;
+            margin-top: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .cloud-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .cloud-text {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Контейнер для центрирования содержимого -->
+    <div class="page-container">
+        <!-- Кнопка "Начнем концерт" для начала записи аудио -->
+        <button class="record-button" id="record-button">Начнем концерт!</button>
+
+        <!-- Облако с текстом и изображением -->
+        <div class="cloud-container">
+            <img src="images/cat1.PNG" alt="Облако" class="cloud-image">
+            <p class="cloud-text">Если ты готов сыграть песню, нажми на кнопку выше. Я буду внимательно слышать, но убедись, что вокруг тебя тихо, чтобы я ничего не пропустил!</p>
+        </div>
+    </div>
+
+    <script>
+        var isRecording = false;
+
+        // Функция для отправки аудиозаписи на сервер
+        function sendAudioToServer(audioBlob) {
+            const formData = new FormData();
+            formData.append('audio', audioBlob, 'audio.wav'); // 'audio' - это имя поля на сервере, 'audio.wav' - имя файла
+
+            // Отправляем аудиозапись на сервер с использованием fetch
+            fetch('http://95.163.229.127/upload-audio', { // Замените 'адрес-сервера' на фактический адрес вашего сервера
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Authorization': 'Basic ' + btoa('root:8zq7ADEAj1BA2VEo') // Аутентификация с логином и паролем
+                }
+            })
+            .then(function(response) {
+                if (response.ok) {
+                    // Если аудиофайл успешно отправлен, обработайте ответ сервера, если необходимо
+                    return response.json();
+                } else {
+                    console.error('Ошибка при отправке аудиозаписи на сервер.');
+                }
+            })
+            .then(function(data) {
+                // Обработка ответа от сервера, если необходимо
+                console.log('Сервер ответил:', data);
+            })
+            .catch(function(err) {
+                console.error('Ошибка при отправке запроса на сервер: ' + err);
+            });
+        }
+
+        // Автоматическое начало записи при загрузке страницы
+        window.addEventListener('load', function() {
+            var recordButton = document.getElementById('record-button');
+
+            // Проверка поддержки getUserMedia
+            if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                navigator.mediaDevices.getUserMedia({ audio: true })
+                    .then(function(stream) {
+                        // Создаем MediaRecorder
+                        var mediaRecorder = new MediaRecorder(stream);
+                        var audioChunks = [];
+
+                        // Функция для обновления состояния кнопки
+                        function updateButtonState() {
+                            if (isRecording) {
+                                recordButton.innerText = 'Стоп';
+                            } else {
+                                recordButton.innerText = 'Играю';
+                            }
+                        }
+
+                        // Запускаем запись при нажатии кнопки "Играю"
+                        recordButton.addEventListener('click', function() {
+                            if (isRecording) {
+                                // Останавливаем запись
+                                mediaRecorder.stop();
+                            } else {
+                                mediaRecorder.start();
+                                audioChunks = [];
+                            }
+                            isRecording = !isRecording;
+                            updateButtonState();
+                        });
+
+                        // Останавливаем запись и воспроизводим записанное аудио при завершении записи
+                        mediaRecorder.ondataavailable = function(e) {
+                            audioChunks.push(e.data);
+                        };
+
+                        mediaRecorder.onstop = function() {
+                            if (!isRecording) {
+                                // Если запись остановлена, переходим на четвертую страницу
+                                window.location.href = 'page4.html';
+                            }
+                        };
+                    })
+                    .catch(function(err) {
+                        console.error('Ошибка при получении доступа к микрофону: ' + err);
+                    });
+            } else {
+                console.error('getUserMedia не поддерживается вашим браузером.');
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Четвертая страница</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /* Стили для видеоплеера на весь экран */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #video-player {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Видеоплеер на весь экран -->
+    <video controls autoplay id="video-player">
+        <!-- Установите путь к видео на сервере и тип контента (MIME-тип) -->
+        <source src="http://95.163.229.127/path-to-your-video-file.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
