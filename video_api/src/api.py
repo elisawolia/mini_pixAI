@@ -1,6 +1,7 @@
 import os
 import io
 from typing import List, Union
+from urllib.parse import unquote
 
 import librosa
 import soundfile as sf
@@ -34,7 +35,7 @@ async def synthesize(
     sf.write(audio_path, audio.transpose(), sample_rate, 'PCM_16')
     images = generate_images(parameters)
 
-    mistakes = eval(mistakes)
+    mistakes = eval(unquote(mistakes))
     if mistakes:
         mistakes = [mistake for mistake in mistakes if mistake]
 
@@ -45,4 +46,3 @@ async def synthesize(
     response.headers["Content-Disposition"] = "attachment; filename={}".format('video.mp4')
 
     return response
-
