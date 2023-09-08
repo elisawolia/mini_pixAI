@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Вторая страница</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /* Стили для картинки котика */
+        .cat-image {
+            width: 200px;
+            height: auto;
+            cursor: pointer;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+        /* Стили для окна ввода */
+        .input-box {
+            font-size: 18px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 70%;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        /* Стили для контейнера с кнопками и картинками */
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Стили для кнопки с картинкой */
+        .image-button {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .image-button img {
+            width: 100px;
+            height: auto;
+            cursor: pointer;
+        }
+
+        /* Стили для кнопки "Отправить" в стиле Pixar */
+        .submit-button {
+            background-color: #FFD200;
+            color: #000;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+            display: block;
+            margin: 0 auto;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .submit-button:hover {
+            background-color: #FBC400;
+        }
+
+        /* Стили для текстовой надписи */
+        .subtitle {
+            font-size: 24px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Стили для контейнера с котиком и текстом */
+        .cat-container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <h1>Сейчас котик напишет интересную историю, но ему нужна твоя помощь. Выбери своего персонажа, каким бы хотел играть:</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Контейнер для кнопок с картинками -->
+    <div class="button-container">
+        <div class="image-button">
+            <button id="birdButton" onclick="sendButtonNameToServer('bird')">
+                <img src="images/bird.jpeg" alt="Кнопка 1">
+            </button>
+        </div>
+        
+        <div class="image-button">
+            <button id="dogButton" onclick="sendButtonNameToServer('dog')">
+                <img src="images/dog.jpeg" alt="Кнопка 2">
+            </button>
+        </div>
+        
+        <div class="image-button">
+            <button id="catButton" onclick="sendButtonNameToServer('cat')">
+                <img src="images/cat.png" alt="Кнопка 3">
+            </button>
+        </div>
+        
+        <div class="image-button">
+            <button id="horseButton" onclick="sendButtonNameToServer('horse')">
+                <img src="images/hourse.jpeg" alt="Кнопка 4">
+            </button>
+        </div>
+        
+        <div class="image-button">
+            <button id="sheepButton" onclick="sendButtonNameToServer('sheep')">
+                <img src="images/sheep.PNG" alt="Кнопка 5">
+            </button>
+        </div>
+        
+        <!-- Дополнительная кнопка -->
+        <div class="image-button">
+            <button id="squirrelButton" onclick="sendButtonNameToServer('squirrel')">
+                <img src="images/squirrel.PNG" alt="Кнопка 6">
+            </button>
+        </div>
+    </div>
+
+    <!-- Текст "Напиши название своей песни" -->
+    <p class="subtitle">Теперь напиши название своей песни:</p>
+
+    <!-- Формы для ввода параметров -->
+    <form id="upload-form">
+        <!-- Окно ввода с автозаполнением -->
+        <input type="text" class="input-box" id="songInput" placeholder="Введите название песни" list="songList" oninput="copyInputToAnimal()">
+        
+        <!-- Подсказка для автозаполнения -->
+        <datalist id="songList">
+            <option value="Песенка крокодила Гены">
+            <option value="Полька">
+        </datalist>
+
+        <!-- Окно для выбора цвета -->
+        <p class="subtitle">И выбери цвет своего персонажа:</p>
+        <select class="input-box" id="color" required>
+            <option value="Красный">Красный</option>
+            <option value="Синий">Синий</option>
+            <option value="Зеленый">Зеленый</option>
+            <option value="Желтый">Желтый</option>
+            <option value="Оранжевый">Оранжевый</option>
+        </select>
+    </form>
+
+    <!-- Контейнер с котиком и текстом -->
+    <div class="cat-container">
+        <p class="subtitle">Нажми на меня, когда будешь готов!</p>
+        <!-- Картинка котика как кнопка -->
+        <a href="page3.html">
+            <img src="images/IMG_7800.gif" alt="Котик" class="cat-image">
+        </a>
+    </div>
+
+    <script>
+        function copyInputToAnimal() {
+            var songInput = document.getElementById('songInput');
+            var animalInput = document.getElementById('animal');
+            
+            animalInput.value = songInput.value;
+        }
+
+        function sendButtonNameToServer(buttonName) {
+            sendDataToServer({ buttonName: buttonName });
+        }
+
+        function sendDataToServer(data) {
+            // URL сервера для отправки данных
+            const serverURL = 'http://95.163.229.127'; // Убедитесь, что URL корректен
+
+            fetch(serverURL, {
+                method: 'POST',
+                body: JSON.stringify(data), // Преобразуйте данные в формат JSON
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            })
+            .then(function(response) {
+                if (response.ok) {
+                    return response.json();
+                } else {
+                    throw new Error('Ошибка при отправке данных на сервер.');
+                }
+            })
+            .then(function(data) {
+                console.log('Сервер ответил:', data);
+            })
+            .catch(function(error) {
+                console.error('Ошибка:', error);
+            });
+        }
+    </script>
+</body>
+</html>

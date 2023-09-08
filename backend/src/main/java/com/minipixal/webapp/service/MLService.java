@@ -14,8 +14,10 @@ import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.util.UriUtils;
 
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 
 /**
  * Сервис по взаимодействию с ML-сервисами
@@ -47,23 +49,23 @@ public class MLService {
         String mistakes = objectMapper.mapToString(audioPitch)
                 .replaceAll("false", "False")
                 .replaceAll("true", "True");
+        String encodedMistakes = UriUtils.encode(mistakes, StandardCharsets.UTF_8.toString());
         System.out.println("AudioService::processAudio got mistakes = " + mistakes);
         HttpHeaders httpHeaders = new HttpHeaders();
         httpHeaders.setContentType(MediaType.MULTIPART_FORM_DATA);
         httpHeaders.add("Content-Transfer-Encoding", "binary");
         httpHeaders.add("Content-Description", "File Transfer");
         MultiValueMap<String, Object> form = new LinkedMultiValueMap<>();
-        form.add("color", color);
-        form.add("animal", animal);
-        form.add("mistakes", mistakes);
         LinkedMultiValueMap<String, String> audioHeaderMap = new LinkedMultiValueMap<>();
         audioHeaderMap.add("Content-disposition", "form-data; name=audio; filename=" + audio.getOriginalFilename());
         audioHeaderMap.add("Content-type", "application/octet-stream");
         HttpEntity<byte[]> audioBytes = new HttpEntity<>(audio.getBytes(), audioHeaderMap);
         form.add("audio", audioBytes);
         HttpEntity<MultiValueMap<String, Object>> requestEntity = new HttpEntity<>(form, httpHeaders);
+        System.out.println("AudioService::processAudio url is = " + "/demo?color=" + color + "&animal=" + animal + "&mistakes=" + encodedMistakes);
         ResponseEntity<byte[]> generateResponse =
-                generateVideoRest.postForEntity("/demo", requestEntity, byte[].class);
+                generateVideoRest.postForEntity("/demo?color=" + color + "&animal=" + animal + "&mistakes=" + encodedMistakes,
+                        requestEntity, byte[].class);
         byte[] video = generateResponse.getBody();
         System.out.println("AudioService::processAudio ended");
         return ResponseEntity

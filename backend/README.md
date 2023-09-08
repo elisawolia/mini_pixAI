@@ -5,6 +5,6 @@ gradlew backend:build
 ~~~
 Для запуска использовать команду:
 ~~~ 
-java -jar /backend/build/libs/
+java -jar ~/mini_pixAI/backend/build/libs/backend-0.0.1-SNAPSHOT.jar
 ~~~ 
 Достучаться до бэкенда можно по следующему url: http://localhost:8080/api/
