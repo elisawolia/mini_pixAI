@@ -1,0 +1,1885 @@
+[I 2023-09-06 17:32:57.011 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-09-06 17:32:57.024 ServerApp] Package jupyter_lsp took 0.0126s to import
+[W 2023-09-06 17:32:57.024 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-09-06 17:32:57.029 ServerApp] Package jupyter_server_terminals took 0.0049s to import
+[I 2023-09-06 17:32:57.030 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-09-06 17:32:57.030 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-09-06 17:32:57.030 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-09-06 17:32:57.035 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-09-06 17:32:57.041 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-09-06 17:32:57.271 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-09-06 17:32:57.314 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-09-06 17:32:57.356 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-09-06 17:32:57.357 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-09-06 17:32:57.358 LabApp] JupyterLab extension loaded from /root/miniconda3/envs/pixai/lib/python3.8/site-packages/jupyterlab
+[I 2023-09-06 17:32:57.358 LabApp] JupyterLab application directory is /root/miniconda3/envs/pixai/share/jupyter/lab
+[I 2023-09-06 17:32:57.358 LabApp] Extension Manager is 'pypi'.
+[I 2023-09-06 17:32:57.361 ServerApp] jupyterlab | extension was successfully loaded.
+[C 2023-09-06 17:32:57.363 ServerApp] Running as root is not recommended. Use --allow-root to bypass.
+usage: jupyter-lab [-h] [--debug] [--show-config] [--show-config-json]
+                   [--generate-config] [-y] [--allow-root] [--no-browser]
+                   [--autoreload] [--script] [--no-script] [--core-mode]
+                   [--dev-mode] [--skip-dev-build] [--splice-source]
+                   [--expose-app-in-browser] [--extensions-in-dev-mode]
+                   [--collaborative] [--log-level ServerApp.log_level]
+                   [--config ServerApp.config_file] [--ip ServerApp.ip]
+                   [--port ServerApp.port]
+                   [--port-retries ServerApp.port_retries]
+                   [--sock ServerApp.sock] [--sock-mode ServerApp.sock_mode]
+                   [--transport KernelManager.transport]
+                   [--keyfile ServerApp.keyfile]
+                   [--certfile ServerApp.certfile]
+                   [--client-ca ServerApp.client_ca]
+                   [--notebook-dir ServerApp.root_dir]
+                   [--preferred-dir ServerApp.preferred_dir]
+                   [--browser ServerApp.browser] [--pylab ServerApp.pylab]
+                   [--gateway-url GatewayClient.url] [--watch [LabApp.watch]]
+                   [--app-dir LabApp.app_dir]
+                   [extra_args [extra_args ...]]
+jupyter-lab: error: unrecognized arguments: --alow-root
+[I 2023-09-06 17:33:37.426 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-09-06 17:33:37.437 ServerApp] Package jupyter_lsp took 0.0111s to import
+[W 2023-09-06 17:33:37.437 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-09-06 17:33:37.442 ServerApp] Package jupyter_server_terminals took 0.0046s to import
+[I 2023-09-06 17:33:37.443 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-09-06 17:33:37.443 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-09-06 17:33:37.443 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-09-06 17:33:37.447 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-09-06 17:33:37.453 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-09-06 17:33:37.659 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-09-06 17:33:37.701 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-09-06 17:33:37.742 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-09-06 17:33:37.743 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-09-06 17:33:37.744 LabApp] JupyterLab extension loaded from /root/miniconda3/envs/pixai/lib/python3.8/site-packages/jupyterlab
+[I 2023-09-06 17:33:37.744 LabApp] JupyterLab application directory is /root/miniconda3/envs/pixai/share/jupyter/lab
+[I 2023-09-06 17:33:37.745 LabApp] Extension Manager is 'pypi'.
+[I 2023-09-06 17:33:37.748 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-09-06 17:33:37.750 ServerApp] Serving notebooks from local directory: /root/mini_pixAI/basic-pitch
+[I 2023-09-06 17:33:37.750 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2023-09-06 17:33:37.750 ServerApp] http://localhost:8888/lab?token=7bc4b9475989655bc204954eef5b99b8badf393f6576db5d
+[I 2023-09-06 17:33:37.750 ServerApp]     http://127.0.0.1:8888/lab?token=7bc4b9475989655bc204954eef5b99b8badf393f6576db5d
+[I 2023-09-06 17:33:37.750 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2023-09-06 17:33:37.755 ServerApp] No web browser found: Error('could not locate runnable browser').
+[C 2023-09-06 17:33:37.755 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///root/.local/share/jupyter/runtime/jpserver-1191-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=7bc4b9475989655bc204954eef5b99b8badf393f6576db5d
+        http://127.0.0.1:8888/lab?token=7bc4b9475989655bc204954eef5b99b8badf393f6576db5d
+[I 2023-09-06 17:33:38.411 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2023-09-06 19:34:11.147 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-09-06 19:34:11.159 ServerApp] Package jupyter_lsp took 0.0115s to import
+[W 2023-09-06 19:34:11.159 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-09-06 19:34:11.165 ServerApp] Package jupyter_server_terminals took 0.0052s to import
+[I 2023-09-06 19:34:11.165 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-09-06 19:34:11.165 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-09-06 19:34:11.166 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-09-06 19:34:11.170 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-09-06 19:34:11.176 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-09-06 19:34:11.389 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-09-06 19:34:11.432 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-09-06 19:34:11.484 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-09-06 19:34:11.485 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-09-06 19:34:11.486 LabApp] JupyterLab extension loaded from /root/miniconda3/envs/pixai/lib/python3.8/site-packages/jupyterlab
+[I 2023-09-06 19:34:11.486 LabApp] JupyterLab application directory is /root/miniconda3/envs/pixai/share/jupyter/lab
+[I 2023-09-06 19:34:11.487 LabApp] Extension Manager is 'pypi'.
+[I 2023-09-06 19:34:11.490 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-09-06 19:34:11.490 ServerApp] The port 8888 is already in use, trying another port.
+[I 2023-09-06 19:34:11.491 ServerApp] Serving notebooks from local directory: /root/mini_pixAI/basic-pitch
+[I 2023-09-06 19:34:11.491 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2023-09-06 19:34:11.491 ServerApp] http://cv3204503.novalocal:8889/lab?token=82ad0580e14cf89599cd43a2423d7d47cbe4ad99590725a9
+[I 2023-09-06 19:34:11.491 ServerApp]     http://127.0.0.1:8889/lab?token=82ad0580e14cf89599cd43a2423d7d47cbe4ad99590725a9
+[I 2023-09-06 19:34:11.491 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2023-09-06 19:34:11.496 ServerApp] No web browser found: Error('could not locate runnable browser').
+[C 2023-09-06 19:34:11.496 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///root/.local/share/jupyter/runtime/jpserver-3111-open.html
+    Or copy and paste one of these URLs:
+        http://cv3204503.novalocal:8889/lab?token=82ad0580e14cf89599cd43a2423d7d47cbe4ad99590725a9
+        http://127.0.0.1:8889/lab?token=82ad0580e14cf89599cd43a2423d7d47cbe4ad99590725a9
+[I 2023-09-06 19:34:11.926 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2023-09-06 19:34:19.046 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-09-06 19:34:19.440 ServerApp] New terminal with automatic name: 2
+[I 2023-09-06 19:34:19.456 ServerApp] New terminal with automatic name: 1
+[I 2023-09-06 19:34:20.289 ServerApp] Kernel started: dd0ee3ea-df78-4b7f-98f9-b313216dd597
+[I 2023-09-06 19:34:20.955 ServerApp] Connecting to kernel dd0ee3ea-df78-4b7f-98f9-b313216dd597.
+[I 2023-09-06 19:34:21.002 ServerApp] Connecting to kernel dd0ee3ea-df78-4b7f-98f9-b313216dd597.
+[I 2023-09-06 19:34:21.055 ServerApp] Connecting to kernel dd0ee3ea-df78-4b7f-98f9-b313216dd597.
+[I 2023-09-06 19:34:56.697 ServerApp] Saving file at /utils.py
+[I 2023-09-06 19:34:56.884 ServerApp] Saving file at /utils.py
+[I 2023-09-06 19:35:26.721 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:35:26.957 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:36:20.285 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-06 19:37:14.472 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:37:14.646 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:37:17.468 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:37:18.824 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:39:18.905 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:40:38.738 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:40:38.912 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:42:39.012 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:46:39.237 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:48:39.303 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:50:39.392 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:52:37.002 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:54:37.191 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:56:37.248 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:58:25.865 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:58:26.054 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:58:26.199 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:58:26.767 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:59:44.423 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:59:44.585 ServerApp] Saving file at /app.py
+[I 2023-09-06 19:59:44.734 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:00:22.391 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-06 20:03:45.241 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:07:46.258 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:08:42.921 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:08:43.071 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:08:43.243 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:09:18.434 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:09:18.702 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:09:18.866 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:10:23.335 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-06 20:11:18.927 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:12:42.404 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:12:42.597 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:12:42.737 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:12:42.952 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:12:43.418 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:14:08.754 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:14:08.909 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:14:09.064 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:14:09.599 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:14:23.627 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-06 20:14:25.358 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:14:25.509 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:14:25.658 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:14:25.827 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:15:44.500 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:15:44.698 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:15:44.887 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:15:45.873 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:16:23.863 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-06 20:16:52.194 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:16:52.368 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:16:52.520 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:16:52.692 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:17:28.528 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:17:28.812 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:17:28.953 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:17:53.264 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:17:53.426 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:18:24.190 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-06 20:19:48.291 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:19:48.448 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:20:24.489 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-06 20:21:53.143 ServerApp] Saving file at /client_example.py
+[I 2023-09-06 20:21:53.330 ServerApp] Saving file at /client_example.py
+[I 2023-09-06 20:21:53.501 ServerApp] Saving file at /client_example.py
+[I 2023-09-06 20:22:22.794 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:22:22.977 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:22:23.205 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:22:24.904 ServerApp] Saving file at /EDA.ipynb
+2023-09-06 20:22:37.612751: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-06 20:22:37.674454: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-06 20:22:37.675305: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-06 20:22:38.521364: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+ * Serving Flask app 'app'
+ * Debug mode: off
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9890
+ * Running on http://192.168.0.127:9890
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+[I 2023-09-06 20:24:12.331 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:24:12.507 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:24:12.686 ServerApp] Saving file at /app.py
+2023-09-06 20:24:27.050093: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-06 20:24:27.109807: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-06 20:24:27.110574: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-06 20:24:27.954430: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Traceback (most recent call last):
+  File "app.py", line 103, in <module>
+    from waitress import serve
+ModuleNotFoundError: No module named 'waitress'
+2023-09-06 20:24:41.727371: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-06 20:24:41.793957: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-06 20:24:41.794675: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-06 20:24:42.630857: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[I 2023-09-06 20:40:28.582 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-06 20:40:41.405 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:40:41.588 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:40:41.818 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:40:41.897 ServerApp] Saving file at /app.py
+[I 2023-09-06 20:45:22.599 ServerApp] Saving file at /client_example.py
+[I 2023-09-06 20:45:23.185 ServerApp] Saving file at /client_example.py
+2023-09-06 20:46:35.760755: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-06 20:46:35.821915: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-06 20:46:35.822732: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-06 20:46:36.662980: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+ * Serving Flask app 'app'
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9890
+ * Running on http://192.168.0.127:9890
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+2023-09-06 20:46:39.837618: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-06 20:46:39.897629: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-06 20:46:39.898487: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-06 20:46:40.774063: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 627-744-000
+INFO:werkzeug:95.163.229.127 - - [06/Sep/2023 20:46:50] "POST /predict HTTP/1.1" 200 -
+[I 2023-09-06 21:02:21.345 ServerApp] Starting buffering for dd0ee3ea-df78-4b7f-98f9-b313216dd597:57ea6321-cca3-482d-868d-829216ae16c6
+[I 2023-09-06 23:04:05.159 ServerApp] Connecting to kernel dd0ee3ea-df78-4b7f-98f9-b313216dd597.
+[I 2023-09-06 23:04:05.159 ServerApp] Restoring connection for dd0ee3ea-df78-4b7f-98f9-b313216dd597:57ea6321-cca3-482d-868d-829216ae16c6
+[I 2023-09-06 23:07:51.897 ServerApp] Starting buffering for dd0ee3ea-df78-4b7f-98f9-b313216dd597:57ea6321-cca3-482d-868d-829216ae16c6
+[I 2023-09-06 23:07:53.516 ServerApp] Connecting to kernel dd0ee3ea-df78-4b7f-98f9-b313216dd597.
+[W 2023-09-06 23:07:53.607 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-09-06 23:07:53.662 ServerApp] Starting buffering for dd0ee3ea-df78-4b7f-98f9-b313216dd597:6613e7a2-b16e-417f-b6f5-02821d3f52c2
+[I 2023-09-06 23:07:54.951 ServerApp] Connecting to kernel dd0ee3ea-df78-4b7f-98f9-b313216dd597.
+INFO:werkzeug:188.191.167.79 - - [06/Sep/2023 23:09:06] "[33mPOST /predict/predict HTTP/1.1[0m" 404 -
+INFO:werkzeug:188.191.167.79 - - [06/Sep/2023 23:57:37] "[33mPOST /predict/predict HTTP/1.1[0m" 404 -
+INFO:werkzeug:188.191.167.79 - - [06/Sep/2023 23:58:25] "[33mPOST /generate HTTP/1.1[0m" 404 -
+[I 2023-09-07 00:12:42.260 ServerApp] Starting buffering for dd0ee3ea-df78-4b7f-98f9-b313216dd597:0c9acbfe-0118-4539-a929-902647e356a8
+[C 2023-09-07 00:53:59.018 ServerApp] received signal 15, stopping
+[C 2023-09-07 00:53:59.019 ServerApp] received signal 15, stopping
+[ 0.00131973 -0.00081256  0.00661273 ...  0.00667569  0.00705552
+  0.        ]
+428094
+Predicting MIDI for /tmp/407be8d0-e4f3-45fd-af4c-9376eb9267aa.wav...
+len(note_events)=55
+unique_pitches=[(0.3831292517006803, 0.5804988662131519, 'A'), (0.615328798185941, 0.7546485260770975, 'A#'), (0.8707482993197279, 2.323279365079365, 'A'), (2.64835873015873, 2.892168253968254, 'A#'), (2.892168253968254, 4.344699319727891, 'A'), (4.588508843537415, 4.855538321995465, 'A#'), (4.855538321995465, 5.621796825396825, 'A'), (5.459257142857143, 5.645016780045351, 'D'), (5.71467664399093, 5.865606349206349, 'E'), (5.877216326530612, 6.075869841269841, 'F'), (6.099089795918368, 6.308069387755102, 'D'), (6.342899319727891, 6.598318820861678, 'A'), (6.621538775510205, 6.865348299319728, 'A#'), (6.865348299319728, 7.736096598639456, 'A'), (7.364577324263038, 7.573556916099774, 'E'), (7.585166893424036, 7.8289764172335605, 'F'), (7.794146485260771, 7.933466213151927, 'G'), (8.062459863945579, 8.329489342403628, 'E'), (8.34109931972789, 8.561688888888888, 'A'), (8.596518820861677, 8.828718367346939, 'A#'), (8.828718367346939, 9.5949768707483, 'A'), (9.339557369614512, 9.513707029478457, 'E'), (9.536926984126984, 9.780736507936508, 'F'), (9.803956462585033, 10.385739229024944, 'G'), (10.327689342403628, 10.49022902494331, 'A'), (10.536668934240364, 10.780478458049888, 'A#'), (10.780478458049888, 12.000809977324263, 'A'), (12.209789569160998, 12.441989115646258, 'D'), (12.453599092970522, 12.662578684807256, 'D#'), (12.685798639455783, 13.405617233560092, 'D'), (13.196637641723356, 13.428837188208616, 'A'), (13.428837188208616, 13.67264671201814, 'A#'), (13.67264671201814, 14.033839909297052, 'C'), (13.893236281179139, 14.25442947845805, 'A'), (14.138329705215419, 14.382139229024943, 'D'), (14.382139229024943, 14.63755873015873, 'D#'), (14.63755873015873, 15.40381723356009, 'D'), (15.10195782312925, 15.35737732426304, 'G'), (15.345767346938775, 15.566356916099773, 'A'), (15.566356916099773, 15.997209977324264, 'A#'), (15.833386394557824, 16.043649886621314, 'D'), (16.043649886621314, 16.264239455782313, 'C'), (16.25262947845805, 16.856348299319727, 'A#'), (16.554488888888887, 17.193037641723354, 'D'), (17.007278004535145, 17.320747392290247, 'A'), (17.227867573696145, 17.460067120181407, 'F'), (17.494897052154194, 18.250829478458048, 'E'), (17.972190022675736, 18.58751882086168, 'G'), (18.250829478458048, 18.842938321995465, 'E')]
+len(unique_pitches)=49
+len(gt_pitches)=46
+len(''.join(gt_pitches))=46
+len_gt_pitches= 46
+left_index=45, len(gt_pitches)=46
+[I 2023-09-07 00:53:59.028 ServerApp] Shutting down 4 extensions
+[I 2023-09-07 00:53:59.030 ServerApp] EOF on FD 16; stopping reading
+[I 2023-09-07 00:53:59.031 ServerApp] Shutting down 4 extensions
+[I 2023-09-07 00:53:59.132 ServerApp] Terminal 2 closed
+[I 2023-09-07 00:53:59.132 ServerApp] EOF on FD 17; stopping reading
+[I 2023-09-07 00:53:59.233 ServerApp] Terminal 1 closed
+[I 2023-09-07 00:53:59.234 ServerApp] Shutting down 1 kernel
+[I 2023-09-07 00:53:59.235 ServerApp] Kernel shutdown: dd0ee3ea-df78-4b7f-98f9-b313216dd597
+2023-09-07 11:13:28.880957: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:13:29.479011: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:13:29.482066: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-07 11:13:31.299594: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+ * Serving Flask app 'app'
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9890
+ * Running on http://192.168.0.127:9890
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+2023-09-07 11:13:37.919770: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:13:37.986951: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:13:37.988035: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-07 11:13:38.957654: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-011-498
+2023-09-07 11:16:02.838870: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 20408832 exceeds 10% of free system memory.
+2023-09-07 11:16:02.839650: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 20408832 exceeds 10% of free system memory.
+2023-09-07 11:16:02.872794: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 17436672 exceeds 10% of free system memory.
+2023-09-07 11:16:02.875240: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 17436672 exceeds 10% of free system memory.
+2023-09-07 11:16:02.886025: W tensorflow/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 17436672 exceeds 10% of free system memory.
+INFO:werkzeug:95.163.229.127 - - [07/Sep/2023 11:16:03] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/root/mini_pixAI/basic-pitch/client_example.py', reloading
+[ 0.00131973 -0.00081256  0.00661273 ...  0.00667569  0.00705552
+  0.        ]
+428094
+Predicting MIDI for /tmp/01f394ed-b324-4ed4-915e-7222754ad9c2.wav...
+len(note_events)=55
+unique_pitches=[(0.3831292517006803, 0.5804988662131519, 'A'), (0.615328798185941, 0.7546485260770975, 'A#'), (0.8707482993197279, 2.323279365079365, 'A'), (2.64835873015873, 2.892168253968254, 'A#'), (2.892168253968254, 4.344699319727891, 'A'), (4.588508843537415, 4.855538321995465, 'A#'), (4.855538321995465, 5.621796825396825, 'A'), (5.459257142857143, 5.645016780045351, 'D'), (5.71467664399093, 5.865606349206349, 'E'), (5.877216326530612, 6.075869841269841, 'F'), (6.099089795918368, 6.308069387755102, 'D'), (6.342899319727891, 6.598318820861678, 'A'), (6.621538775510205, 6.865348299319728, 'A#'), (6.865348299319728, 7.736096598639456, 'A'), (7.364577324263038, 7.573556916099774, 'E'), (7.585166893424036, 7.8289764172335605, 'F'), (7.794146485260771, 7.933466213151927, 'G'), (8.062459863945579, 8.329489342403628, 'E'), (8.34109931972789, 8.561688888888888, 'A'), (8.596518820861677, 8.828718367346939, 'A#'), (8.828718367346939, 9.5949768707483, 'A'), (9.339557369614512, 9.513707029478457, 'E'), (9.536926984126984, 9.780736507936508, 'F'), (9.803956462585033, 10.385739229024944, 'G'), (10.327689342403628, 10.49022902494331, 'A'), (10.536668934240364, 10.780478458049888, 'A#'), (10.780478458049888, 12.000809977324263, 'A'), (12.209789569160998, 12.441989115646258, 'D'), (12.453599092970522, 12.662578684807256, 'D#'), (12.685798639455783, 13.405617233560092, 'D'), (13.196637641723356, 13.428837188208616, 'A'), (13.428837188208616, 13.67264671201814, 'A#'), (13.67264671201814, 14.033839909297052, 'C'), (13.893236281179139, 14.25442947845805, 'A'), (14.138329705215419, 14.382139229024943, 'D'), (14.382139229024943, 14.63755873015873, 'D#'), (14.63755873015873, 15.40381723356009, 'D'), (15.10195782312925, 15.35737732426304, 'G'), (15.345767346938775, 15.566356916099773, 'A'), (15.566356916099773, 15.997209977324264, 'A#'), (15.833386394557824, 16.043649886621314, 'D'), (16.043649886621314, 16.264239455782313, 'C'), (16.25262947845805, 16.856348299319727, 'A#'), (16.554488888888887, 17.193037641723354, 'D'), (17.007278004535145, 17.320747392290247, 'A'), (17.227867573696145, 17.460067120181407, 'F'), (17.494897052154194, 18.250829478458048, 'E'), (17.972190022675736, 18.58751882086168, 'G'), (18.250829478458048, 18.842938321995465, 'E')]
+len(unique_pitches)=49
+len(gt_pitches)=46
+len(''.join(gt_pitches))=46
+len_gt_pitches= 46
+left_index=45, len(gt_pitches)=46
+INFO:werkzeug: * Restarting with stat
+2023-09-07 11:17:24.519471: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:17:24.590769: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:17:24.591835: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-07 11:17:25.737080: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-011-498
+INFO:werkzeug:95.163.229.127 - - [07/Sep/2023 11:17:31] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/root/mini_pixAI/basic-pitch/client_example.py', reloading
+[ 0.          0.          0.         ...  0.00461532 -0.00244043
+ -0.00652975]
+610560
+Predicting MIDI for /tmp/bf40916b-aef6-4459-990c-005993f224c6.wav...
+len(note_events)=52
+unique_pitches=[(0.7662585034013606, 1.1493877551020408, 'A'), (1.1493877551020408, 1.497687074829932, 'A#'), (1.497687074829932, 2.91538820861678, 'A'), (3.867406349206349, 4.216989569160997, 'A#'), (4.240209523809524, 5.958486167800453, 'A'), (6.551878911564626, 6.935008163265306, 'A#'), (6.935008163265306, 7.619996825396825, 'A'), (7.631606802721088, 8.155339682539681, 'D'), (7.933466213151927, 8.271439455782312, 'E'), (8.271439455782312, 8.677788662131519, 'F'), (8.596518820861677, 9.118967800453515, 'D'), (8.90998820861678, 9.246677551020408, 'A'), (9.246677551020408, 9.583366893424035, 'A#'), (9.583366893424035, 10.234809523809524, 'A'), (10.246419501133788, 10.55988888888889, 'E'), (10.55988888888889, 10.966238095238095, 'F'), (10.884968253968255, 11.453857142857144, 'G'), (11.233267573696146, 11.70927664399093, 'E'), (11.569956916099773, 11.89503628117914, 'A'), (11.89503628117914, 12.244619501133787, 'A#'), (12.244619501133787, 12.894778231292518, 'A'), (12.917998185941043, 13.24307755102041, 'E'), (13.24307755102041, 13.684256689342403, 'F'), (13.602986848072563, 14.25442947845805, 'G'), (14.25442947845805, 14.544678911564626, 'A'), (14.544678911564626, 14.927808163265306, 'A#'), (14.927808163265306, 16.775078458049887, 'A'), (16.844738321995465, 17.146597732426304, 'D'), (17.146597732426304, 17.506507029478456, 'D#'), (17.506507029478456, 18.169559637188208, 'D'), (18.18116961451247, 18.529468934240363, 'A'), (18.58751882086168, 18.86615827664399, 'A#'), (18.808108390022674, 19.376997278911563, 'C'), (19.13318775510204, 19.51631700680272, 'A'), (19.469877097505666, 19.78334648526077, 'D'), (19.78334648526077, 20.144539682539683, 'D#'), (20.144539682539683, 20.794698412698413, 'D'), (20.80630839002268, 21.410027210884355, 'G'), (21.11977777777778, 21.456467120181408, 'A'), (21.456467120181408, 21.991809977324266, 'A#'), (21.758326530612248, 22.08468979591837, 'D'), (22.073079818594106, 22.456209070294786, 'C'), (22.409769160997733, 23.07153786848073, 'A#'), (22.76967845804989, 23.385007256235827, 'D'), (23.408227210884355, 24.001619954648525, 'A'), (23.73330657596372, 24.117719727891156, 'F'), (24.12932970521542, 24.709828571428574, 'E'), (24.698218594104308, 25.220667573696147, 'G'), (25.023297959183672, 25.441257142857143, 'F'), (25.383207256235828, 27.416237188208616, 'D')]
+len(unique_pitches)=50
+len(gt_pitches)=46
+len(''.join(gt_pitches))=46
+len_gt_pitches= 46
+INFO:werkzeug: * Restarting with stat
+2023-09-07 11:35:26.781067: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:35:26.863977: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:35:26.865094: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-07 11:35:27.874065: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-011-498
+INFO:werkzeug:95.163.229.127 - - [07/Sep/2023 11:35:33] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:95.163.229.127 - - [07/Sep/2023 11:43:48] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/root/mini_pixAI/basic-pitch/app.py', reloading
+[ 0.          0.          0.         ...  0.00461532 -0.00244043
+ -0.00652975]
+610560
+Predicting MIDI for /tmp/954e4c95-5ddb-4714-9a81-c9fe2def400c.wav...
+len(note_events)=52
+unique_pitches=[(0.7662585034013606, 1.1493877551020408, 'A'), (1.1493877551020408, 1.497687074829932, 'A#'), (1.497687074829932, 2.91538820861678, 'A'), (3.867406349206349, 4.216989569160997, 'A#'), (4.240209523809524, 5.958486167800453, 'A'), (6.551878911564626, 6.935008163265306, 'A#'), (6.935008163265306, 7.619996825396825, 'A'), (7.631606802721088, 8.155339682539681, 'D'), (7.933466213151927, 8.271439455782312, 'E'), (8.271439455782312, 8.677788662131519, 'F'), (8.596518820861677, 9.118967800453515, 'D'), (8.90998820861678, 9.246677551020408, 'A'), (9.246677551020408, 9.583366893424035, 'A#'), (9.583366893424035, 10.234809523809524, 'A'), (10.246419501133788, 10.55988888888889, 'E'), (10.55988888888889, 10.966238095238095, 'F'), (10.884968253968255, 11.453857142857144, 'G'), (11.233267573696146, 11.70927664399093, 'E'), (11.569956916099773, 11.89503628117914, 'A'), (11.89503628117914, 12.244619501133787, 'A#'), (12.244619501133787, 12.894778231292518, 'A'), (12.917998185941043, 13.24307755102041, 'E'), (13.24307755102041, 13.684256689342403, 'F'), (13.602986848072563, 14.25442947845805, 'G'), (14.25442947845805, 14.544678911564626, 'A'), (14.544678911564626, 14.927808163265306, 'A#'), (14.927808163265306, 16.775078458049887, 'A'), (16.844738321995465, 17.146597732426304, 'D'), (17.146597732426304, 17.506507029478456, 'D#'), (17.506507029478456, 18.169559637188208, 'D'), (18.18116961451247, 18.529468934240363, 'A'), (18.58751882086168, 18.86615827664399, 'A#'), (18.808108390022674, 19.376997278911563, 'C'), (19.13318775510204, 19.51631700680272, 'A'), (19.469877097505666, 19.78334648526077, 'D'), (19.78334648526077, 20.144539682539683, 'D#'), (20.144539682539683, 20.794698412698413, 'D'), (20.80630839002268, 21.410027210884355, 'G'), (21.11977777777778, 21.456467120181408, 'A'), (21.456467120181408, 21.991809977324266, 'A#'), (21.758326530612248, 22.08468979591837, 'D'), (22.073079818594106, 22.456209070294786, 'C'), (22.409769160997733, 23.07153786848073, 'A#'), (22.76967845804989, 23.385007256235827, 'D'), (23.408227210884355, 24.001619954648525, 'A'), (23.73330657596372, 24.117719727891156, 'F'), (24.12932970521542, 24.709828571428574, 'E'), (24.698218594104308, 25.220667573696147, 'G'), (25.023297959183672, 25.441257142857143, 'F'), (25.383207256235828, 27.416237188208616, 'D')]
+len(unique_pitches)=50
+len(gt_pitches)=52
+len(''.join(gt_pitches))=52
+len_gt_pitches= 52
+left_index=3, len(gt_pitches)=52
+left_index=6, len(gt_pitches)=52
+[ 0.          0.          0.         ...  0.00461532 -0.00244043
+ -0.00652975]
+610560
+Predicting MIDI for /tmp/ac8cab5a-81d6-426d-8340-4867d9eca6c2.wav...
+len(note_events)=52
+unique_pitches=[(0.7662585034013606, 1.1493877551020408, 'A'), (1.1493877551020408, 1.497687074829932, 'A#'), (1.497687074829932, 2.91538820861678, 'A'), (3.867406349206349, 4.216989569160997, 'A#'), (4.240209523809524, 5.958486167800453, 'A'), (6.551878911564626, 6.935008163265306, 'A#'), (6.935008163265306, 7.619996825396825, 'A'), (7.631606802721088, 8.155339682539681, 'D'), (7.933466213151927, 8.271439455782312, 'E'), (8.271439455782312, 8.677788662131519, 'F'), (8.596518820861677, 9.118967800453515, 'D'), (8.90998820861678, 9.246677551020408, 'A'), (9.246677551020408, 9.583366893424035, 'A#'), (9.583366893424035, 10.234809523809524, 'A'), (10.246419501133788, 10.55988888888889, 'E'), (10.55988888888889, 10.966238095238095, 'F'), (10.884968253968255, 11.453857142857144, 'G'), (11.233267573696146, 11.70927664399093, 'E'), (11.569956916099773, 11.89503628117914, 'A'), (11.89503628117914, 12.244619501133787, 'A#'), (12.244619501133787, 12.894778231292518, 'A'), (12.917998185941043, 13.24307755102041, 'E'), (13.24307755102041, 13.684256689342403, 'F'), (13.602986848072563, 14.25442947845805, 'G'), (14.25442947845805, 14.544678911564626, 'A'), (14.544678911564626, 14.927808163265306, 'A#'), (14.927808163265306, 16.775078458049887, 'A'), (16.844738321995465, 17.146597732426304, 'D'), (17.146597732426304, 17.506507029478456, 'D#'), (17.506507029478456, 18.169559637188208, 'D'), (18.18116961451247, 18.529468934240363, 'A'), (18.58751882086168, 18.86615827664399, 'A#'), (18.808108390022674, 19.376997278911563, 'C'), (19.13318775510204, 19.51631700680272, 'A'), (19.469877097505666, 19.78334648526077, 'D'), (19.78334648526077, 20.144539682539683, 'D#'), (20.144539682539683, 20.794698412698413, 'D'), (20.80630839002268, 21.410027210884355, 'G'), (21.11977777777778, 21.456467120181408, 'A'), (21.456467120181408, 21.991809977324266, 'A#'), (21.758326530612248, 22.08468979591837, 'D'), (22.073079818594106, 22.456209070294786, 'C'), (22.409769160997733, 23.07153786848073, 'A#'), (22.76967845804989, 23.385007256235827, 'D'), (23.408227210884355, 24.001619954648525, 'A'), (23.73330657596372, 24.117719727891156, 'F'), (24.12932970521542, 24.709828571428574, 'E'), (24.698218594104308, 25.220667573696147, 'G'), (25.023297959183672, 25.441257142857143, 'F'), (25.383207256235828, 27.416237188208616, 'D')]
+len(unique_pitches)=50
+len(gt_pitches)=52
+len(''.join(gt_pitches))=52
+len_gt_pitches= 52
+left_index=3, len(gt_pitches)=52
+left_index=6, len(gt_pitches)=52
+INFO:werkzeug: * Restarting with stat
+2023-09-07 11:45:07.167203: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:45:07.241772: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:45:07.242697: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-07 11:45:08.204137: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-011-498
+INFO:werkzeug:95.163.229.127 - - [07/Sep/2023 11:45:14] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/root/mini_pixAI/basic-pitch/app.py', reloading
+[ 0.          0.          0.         ...  0.00461532 -0.00244043
+ -0.00652975]
+610560
+Predicting MIDI for /tmp/1a051a99-652e-4f2c-bac2-ae011b2a4c34.wav...
+len(note_events)=52
+unique_pitches=[(0.7662585034013606, 1.1493877551020408, 'A'), (1.1493877551020408, 1.497687074829932, 'A#'), (1.497687074829932, 2.91538820861678, 'A'), (3.867406349206349, 4.216989569160997, 'A#'), (4.240209523809524, 5.958486167800453, 'A'), (6.551878911564626, 6.935008163265306, 'A#'), (6.935008163265306, 7.619996825396825, 'A'), (7.631606802721088, 8.155339682539681, 'D'), (7.933466213151927, 8.271439455782312, 'E'), (8.271439455782312, 8.677788662131519, 'F'), (8.596518820861677, 9.118967800453515, 'D'), (8.90998820861678, 9.246677551020408, 'A'), (9.246677551020408, 9.583366893424035, 'A#'), (9.583366893424035, 10.234809523809524, 'A'), (10.246419501133788, 10.55988888888889, 'E'), (10.55988888888889, 10.966238095238095, 'F'), (10.884968253968255, 11.453857142857144, 'G'), (11.233267573696146, 11.70927664399093, 'E'), (11.569956916099773, 11.89503628117914, 'A'), (11.89503628117914, 12.244619501133787, 'A#'), (12.244619501133787, 12.894778231292518, 'A'), (12.917998185941043, 13.24307755102041, 'E'), (13.24307755102041, 13.684256689342403, 'F'), (13.602986848072563, 14.25442947845805, 'G'), (14.25442947845805, 14.544678911564626, 'A'), (14.544678911564626, 14.927808163265306, 'A#'), (14.927808163265306, 16.775078458049887, 'A'), (16.844738321995465, 17.146597732426304, 'D'), (17.146597732426304, 17.506507029478456, 'D#'), (17.506507029478456, 18.169559637188208, 'D'), (18.18116961451247, 18.529468934240363, 'A'), (18.58751882086168, 18.86615827664399, 'A#'), (18.808108390022674, 19.376997278911563, 'C'), (19.13318775510204, 19.51631700680272, 'A'), (19.469877097505666, 19.78334648526077, 'D'), (19.78334648526077, 20.144539682539683, 'D#'), (20.144539682539683, 20.794698412698413, 'D'), (20.80630839002268, 21.410027210884355, 'G'), (21.11977777777778, 21.456467120181408, 'A'), (21.456467120181408, 21.991809977324266, 'A#'), (21.758326530612248, 22.08468979591837, 'D'), (22.073079818594106, 22.456209070294786, 'C'), (22.409769160997733, 23.07153786848073, 'A#'), (22.76967845804989, 23.385007256235827, 'D'), (23.408227210884355, 24.001619954648525, 'A'), (23.73330657596372, 24.117719727891156, 'F'), (24.12932970521542, 24.709828571428574, 'E'), (24.698218594104308, 25.220667573696147, 'G'), (25.023297959183672, 25.441257142857143, 'F'), (25.383207256235828, 27.416237188208616, 'D')]
+len(unique_pitches)=50
+len(gt_pitches)=52
+len(''.join(gt_pitches))=52
+len_gt_pitches= 52
+left_index=3, len(gt_pitches)=52
+left_index=6, len(gt_pitches)=52
+INFO:werkzeug: * Restarting with stat
+2023-09-07 11:46:50.753922: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:46:50.820371: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:46:50.821157: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-07 11:46:51.726866: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-011-498
+INFO:werkzeug:95.163.229.127 - - [07/Sep/2023 11:46:57] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/root/mini_pixAI/basic-pitch/app.py', reloading
+[ 0.          0.          0.         ...  0.00461532 -0.00244043
+ -0.00652975]
+610560
+Predicting MIDI for /tmp/d49c1c57-f273-4dfc-89c3-70d5fa7a3884.wav...
+len(note_events)=52
+unique_pitches=[(0.7662585034013606, 1.1493877551020408, 'A'), (1.1493877551020408, 1.497687074829932, 'A#'), (1.497687074829932, 2.91538820861678, 'A'), (3.867406349206349, 4.216989569160997, 'A#'), (4.240209523809524, 5.958486167800453, 'A'), (6.551878911564626, 6.935008163265306, 'A#'), (6.935008163265306, 7.619996825396825, 'A'), (7.631606802721088, 8.155339682539681, 'D'), (7.933466213151927, 8.271439455782312, 'E'), (8.271439455782312, 8.677788662131519, 'F'), (8.596518820861677, 9.118967800453515, 'D'), (8.90998820861678, 9.246677551020408, 'A'), (9.246677551020408, 9.583366893424035, 'A#'), (9.583366893424035, 10.234809523809524, 'A'), (10.246419501133788, 10.55988888888889, 'E'), (10.55988888888889, 10.966238095238095, 'F'), (10.884968253968255, 11.453857142857144, 'G'), (11.233267573696146, 11.70927664399093, 'E'), (11.569956916099773, 11.89503628117914, 'A'), (11.89503628117914, 12.244619501133787, 'A#'), (12.244619501133787, 12.894778231292518, 'A'), (12.917998185941043, 13.24307755102041, 'E'), (13.24307755102041, 13.684256689342403, 'F'), (13.602986848072563, 14.25442947845805, 'G'), (14.25442947845805, 14.544678911564626, 'A'), (14.544678911564626, 14.927808163265306, 'A#'), (14.927808163265306, 16.775078458049887, 'A'), (16.844738321995465, 17.146597732426304, 'D'), (17.146597732426304, 17.506507029478456, 'D#'), (17.506507029478456, 18.169559637188208, 'D'), (18.18116961451247, 18.529468934240363, 'A'), (18.58751882086168, 18.86615827664399, 'A#'), (18.808108390022674, 19.376997278911563, 'C'), (19.13318775510204, 19.51631700680272, 'A'), (19.469877097505666, 19.78334648526077, 'D'), (19.78334648526077, 20.144539682539683, 'D#'), (20.144539682539683, 20.794698412698413, 'D'), (20.80630839002268, 21.410027210884355, 'G'), (21.11977777777778, 21.456467120181408, 'A'), (21.456467120181408, 21.991809977324266, 'A#'), (21.758326530612248, 22.08468979591837, 'D'), (22.073079818594106, 22.456209070294786, 'C'), (22.409769160997733, 23.07153786848073, 'A#'), (22.76967845804989, 23.385007256235827, 'D'), (23.408227210884355, 24.001619954648525, 'A'), (23.73330657596372, 24.117719727891156, 'F'), (24.12932970521542, 24.709828571428574, 'E'), (24.698218594104308, 25.220667573696147, 'G'), (25.023297959183672, 25.441257142857143, 'F'), (25.383207256235828, 27.416237188208616, 'D')]
+len(unique_pitches)=50
+len(gt_pitches)=52
+len(''.join(gt_pitches))=52
+len_gt_pitches= 52
+left_index=3, len(gt_pitches)=52
+left_index=6, len(gt_pitches)=52
+INFO:werkzeug: * Restarting with stat
+2023-09-07 11:50:54.008388: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:50:54.069762: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:50:54.070521: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-07 11:50:54.963830: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-011-498
+INFO:werkzeug:95.163.229.127 - - [07/Sep/2023 11:51:00] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/root/mini_pixAI/basic-pitch/app.py', reloading
+[ 0.          0.          0.         ...  0.00461532 -0.00244043
+ -0.00652975]
+610560
+Predicting MIDI for /tmp/62b8526e-c025-4989-b238-d493cd2abb4e.wav...
+len(note_events)=52
+len_gt_pitches= 52
+INFO:werkzeug: * Restarting with stat
+2023-09-07 11:53:12.765918: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:53:12.830768: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:53:12.831559: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-07 11:53:13.829266: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-011-498
+INFO:werkzeug:95.163.229.127 - - [07/Sep/2023 11:53:19] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/root/mini_pixAI/basic-pitch/app.py', reloading
+[ 0.          0.          0.         ...  0.00461532 -0.00244043
+ -0.00652975]
+610560
+Predicting MIDI for /tmp/806b56c2-a72f-4e9a-946e-52af118f80e9.wav...
+len(note_events)=52
+len_gt_pitches= 52
+INFO:werkzeug: * Restarting with stat
+2023-09-07 11:54:00.699177: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:54:00.759620: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:54:00.760369: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-07 11:54:01.653402: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-011-498
+INFO:werkzeug:95.163.229.127 - - [07/Sep/2023 11:54:08] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/root/mini_pixAI/basic-pitch/client_example.py', reloading
+[ 0.          0.          0.         ...  0.00461532 -0.00244043
+ -0.00652975]
+610560
+Predicting MIDI for /tmp/eb81fc91-5723-4cea-a1ec-0b37ce4341b6.wav...
+len(note_events)=52
+len_gt_pitches= 52
+INFO:werkzeug: * Restarting with stat
+2023-09-07 11:55:47.800194: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:55:47.862772: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:55:47.863524: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-07 11:55:48.798865: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-011-498
+INFO:werkzeug:95.163.229.127 - - [07/Sep/2023 11:55:53] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/root/mini_pixAI/basic-pitch/client_example.py', reloading
+[ 0.00131973 -0.00081256  0.00661273 ...  0.00667569  0.00705552
+  0.        ]
+428094
+Predicting MIDI for /tmp/6e32b4cd-73d0-4313-81cc-220dcc21b09e.wav...
+len(note_events)=55
+len_gt_pitches= 52
+left_index=51, len(gt_pitches)=52
+INFO:werkzeug: * Restarting with stat
+2023-09-07 11:56:38.974044: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:56:39.039183: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 11:56:39.040007: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-07 11:56:39.930677: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-011-498
+INFO:werkzeug:95.163.229.127 - - [07/Sep/2023 11:56:45] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:95.163.229.127 - - [07/Sep/2023 14:05:11] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/root/mini_pixAI/basic-pitch/client_example.py', reloading
+[ 0.          0.          0.         ...  0.00461532 -0.00244043
+ -0.00652975]
+610560
+Predicting MIDI for /tmp/d213616c-7a98-4044-949c-46d635ecd6b1.wav...
+len(note_events)=52
+len_gt_pitches= 52
+[ 0.          0.          0.         ...  0.00461532 -0.00244043
+ -0.00652975]
+610560
+Predicting MIDI for /tmp/127ee0bb-aa7a-446a-bd91-0e6e83958465.wav...
+len(note_events)=52
+len_gt_pitches= 52
+INFO:werkzeug: * Restarting with stat
+2023-09-07 14:10:44.792168: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 14:10:45.175781: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 14:10:45.177350: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-07 14:10:46.855748: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-011-498
+INFO:werkzeug: * Detected change in '/root/mini_pixAI/basic-pitch/client_example.py', reloading
+INFO:werkzeug: * Restarting with stat
+2023-09-07 14:15:57.451662: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 14:15:57.527476: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 14:15:57.528470: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-07 14:15:58.457049: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 139-011-498
+INFO:werkzeug:95.163.229.127 - - [07/Sep/2023 14:17:19] "POST /predict HTTP/1.1" 200 -
+[I 2023-09-07 14:17:46.983 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-09-07 14:17:47.011 ServerApp] Package jupyter_lsp took 0.0268s to import
+[W 2023-09-07 14:17:47.011 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-09-07 14:17:47.024 ServerApp] Package jupyter_server_terminals took 0.0123s to import
+[I 2023-09-07 14:17:47.024 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-09-07 14:17:47.024 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-09-07 14:17:47.026 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-09-07 14:17:47.030 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-09-07 14:17:47.037 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-09-07 14:17:47.432 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-09-07 14:17:47.539 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-09-07 14:17:47.590 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-09-07 14:17:47.591 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-09-07 14:17:47.594 LabApp] JupyterLab extension loaded from /root/miniconda3/envs/pixai/lib/python3.8/site-packages/jupyterlab
+[I 2023-09-07 14:17:47.594 LabApp] JupyterLab application directory is /root/miniconda3/envs/pixai/share/jupyter/lab
+[I 2023-09-07 14:17:47.595 LabApp] Extension Manager is 'pypi'.
+[I 2023-09-07 14:17:47.598 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-09-07 14:17:47.599 ServerApp] Serving notebooks from local directory: /root/mini_pixAI/basic-pitch
+[I 2023-09-07 14:17:47.599 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2023-09-07 14:17:47.599 ServerApp] http://cv3204503.novalocal:8888/lab?token=f6319ad6c972b10dc94951ec489743569796f6760c6720eb
+[I 2023-09-07 14:17:47.599 ServerApp]     http://127.0.0.1:8888/lab?token=f6319ad6c972b10dc94951ec489743569796f6760c6720eb
+[I 2023-09-07 14:17:47.599 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2023-09-07 14:17:47.605 ServerApp] No web browser found: Error('could not locate runnable browser').
+[C 2023-09-07 14:17:47.606 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///root/.local/share/jupyter/runtime/jpserver-3939-open.html
+    Or copy and paste one of these URLs:
+        http://cv3204503.novalocal:8888/lab?token=f6319ad6c972b10dc94951ec489743569796f6760c6720eb
+        http://127.0.0.1:8888/lab?token=f6319ad6c972b10dc94951ec489743569796f6760c6720eb
+[I 2023-09-07 14:17:48.374 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2023-09-07 14:18:03.334 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-09-07 14:18:03.668 ServerApp] New terminal with automatic name: 1
+[I 2023-09-07 14:18:03.701 ServerApp] New terminal with automatic name: 2
+[I 2023-09-07 14:18:04.622 ServerApp] Kernel started: 584e435b-bb11-4ebe-8867-f31ec6f23d95
+[I 2023-09-07 14:18:05.565 ServerApp] Connecting to kernel 584e435b-bb11-4ebe-8867-f31ec6f23d95.
+[I 2023-09-07 14:18:05.599 ServerApp] Connecting to kernel 584e435b-bb11-4ebe-8867-f31ec6f23d95.
+[I 2023-09-07 14:18:05.639 ServerApp] Connecting to kernel 584e435b-bb11-4ebe-8867-f31ec6f23d95.
+INFO:werkzeug:95.163.229.127 - - [07/Sep/2023 14:19:47] "POST /predict HTTP/1.1" 200 -
+[I 2023-09-07 14:20:04.426 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 14:22:04.689 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 14:24:05.313 ServerApp] Saving file at /EDA.ipynb
+INFO:werkzeug:95.163.229.127 - - [07/Sep/2023 14:24:32] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[I 2023-09-07 14:26:06.015 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 14:28:06.691 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 14:30:04.160 ServerApp] Saving file at /app.py
+[I 2023-09-07 14:31:13.455 ServerApp] Saving file at /app.py
+[I 2023-09-07 14:31:13.646 ServerApp] Saving file at /app.py
+[I 2023-09-07 14:31:13.802 ServerApp] Saving file at /app.py
+[I 2023-09-07 14:31:37.559 ServerApp] Saving file at /app.py
+[I 2023-09-07 14:31:37.731 ServerApp] Saving file at /app.py
+[I 2023-09-07 14:32:07.451 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 14:32:42.137 ServerApp] 302 GET / (@205.210.31.157) 0.79ms
+[I 2023-09-07 14:33:21.016 ServerApp] Saving file at /app.py
+[I 2023-09-07 14:33:21.186 ServerApp] Saving file at /app.py
+[I 2023-09-07 14:33:47.589 ServerApp] Saving file at /app.py
+[I 2023-09-07 14:33:47.732 ServerApp] Saving file at /app.py
+[I 2023-09-07 14:34:08.124 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 14:34:36.678 ServerApp] Saving file at /app.py
+[I 2023-09-07 14:34:36.813 ServerApp] Saving file at /app.py
+[I 2023-09-07 14:34:36.961 ServerApp] Saving file at /app.py
+[I 2023-09-07 14:36:08.983 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 14:38:10.021 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 14:40:10.956 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 14:54:45.898 ServerApp] 302 GET / (@185.180.143.6) 0.87ms
+[I 2023-09-07 14:54:46.030 LabApp] 302 GET /lab? (@185.180.143.6) 0.94ms
+[W 2023-09-07 14:54:47.691 ServerApp] 404 GET /showLogin.cc (@185.180.143.6) 6.76ms referer=None
+[I 2023-09-07 14:55:03.412 ServerApp] Starting buffering for 584e435b-bb11-4ebe-8867-f31ec6f23d95:067c93c9-d0e9-4ab4-8bef-49b04fc77bef
+[I 2023-09-07 16:04:34.387 ServerApp] Connecting to kernel 584e435b-bb11-4ebe-8867-f31ec6f23d95.
+[I 2023-09-07 16:04:34.552 ServerApp] Starting buffering for 584e435b-bb11-4ebe-8867-f31ec6f23d95:3c69e006-5f9f-4154-9b09-3b941c673ac9
+[W 2023-09-07 16:04:34.674 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-09-07 16:04:36.358 ServerApp] Connecting to kernel 584e435b-bb11-4ebe-8867-f31ec6f23d95.
+[I 2023-09-07 16:06:35.258 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:08:05.329 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:08:36.700 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 16:09:11.634 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:09:11.835 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:09:11.983 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:09:14.104 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:09:14.309 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:10:06.526 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:10:06.720 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:12:04.251 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:12:04.415 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:12:38.594 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 16:14:40.982 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 16:16:43.805 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:16:44.068 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:16:44.830 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 16:17:58.654 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:17:58.922 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:18:48.627 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 16:20:45.863 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:20:46.053 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:20:46.208 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:20:46.428 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:20:47.050 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:20:54.686 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:20:54.862 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:20:55.047 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:21:26.182 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:21:26.370 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:21:26.511 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:21:26.665 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:22:41.018 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:22:41.203 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:22:41.363 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:22:41.531 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:23:46.080 ServerApp] Kernel interrupted: 584e435b-bb11-4ebe-8867-f31ec6f23d95
+[I 2023-09-07 16:23:46.355 ServerApp] Kernel interrupted: 584e435b-bb11-4ebe-8867-f31ec6f23d95
+[I 2023-09-07 16:24:53.875 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 16:24:54.658 ServerApp] Kernel interrupted: 584e435b-bb11-4ebe-8867-f31ec6f23d95
+[I 2023-09-07 16:24:54.957 ServerApp] Kernel interrupted: 584e435b-bb11-4ebe-8867-f31ec6f23d95
+[I 2023-09-07 16:24:55.292 ServerApp] Kernel interrupted: 584e435b-bb11-4ebe-8867-f31ec6f23d95
+[I 2023-09-07 16:24:58.956 ServerApp] Kernel interrupted: 584e435b-bb11-4ebe-8867-f31ec6f23d95
+[I 2023-09-07 16:24:59.260 ServerApp] Kernel interrupted: 584e435b-bb11-4ebe-8867-f31ec6f23d95
+[I 2023-09-07 16:26:57.958 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 16:29:02.490 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 16:31:06.020 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 16:32:01.280 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:33:21.923 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 16:36:04.286 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 16:36:32.802 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:36:32.971 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:36:33.135 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:37:03.025 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:37:03.230 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:37:03.384 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:37:08.738 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:40:42.469 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:41:02.922 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:41:03.157 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:41:03.261 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:41:28.373 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:41:28.481 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:41:35.920 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:41:45.763 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:41:45.910 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:42:29.539 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:42:29.738 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:42:29.927 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:42:30.411 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:42:31.428 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:44:08.785 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 16:46:15.634 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 16:46:42.533 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:47:14.949 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:48:20.323 ServerApp] Saving file at /app.py
+[I 2023-09-07 16:48:59.833 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:49:00.018 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:49:00.177 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:49:00.341 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:53:00.391 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:53:12.578 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:53:12.760 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:53:12.950 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:53:57.276 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:53:57.459 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:53:57.616 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:54:01.382 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:54:01.542 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:54:01.711 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:56:22.947 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 16:56:52.304 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:56:52.475 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:56:52.618 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:57:49.860 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 16:57:50.032 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 17:00:27.561 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 17:02:25.705 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 17:02:25.904 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 17:02:26.074 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 17:02:33.059 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 17:03:03.998 ServerApp] Kernel interrupted: 584e435b-bb11-4ebe-8867-f31ec6f23d95
+[I 2023-09-07 17:03:04.305 ServerApp] Kernel interrupted: 584e435b-bb11-4ebe-8867-f31ec6f23d95
+[I 2023-09-07 17:03:54.667 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 17:03:54.864 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 17:03:55.016 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 17:03:55.189 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 17:03:55.338 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 17:04:37.408 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 17:04:37.654 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 17:04:59.810 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:04:59.981 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:05:52.310 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 17:05:52.483 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 17:06:05.550 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 17:06:05.714 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 17:09:00.031 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:11:00.089 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:13:00.151 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:15:00.224 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:17:00.283 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:19:00.353 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:21:00.423 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:23:00.482 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:24:49.022 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:24:49.198 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:25:31.341 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:25:31.539 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:25:31.725 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:26:39.980 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 17:26:40.177 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 17:26:40.317 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 17:27:31.781 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:28:24.684 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:28:24.859 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:28:38.447 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:28:38.629 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:30:37.918 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:30:38.132 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:32:07.117 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:32:07.297 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:34:03.347 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:34:03.541 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:34:03.786 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:34:42.107 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 17:38:48.235 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 17:39:44.759 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:39:44.939 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:39:45.082 ServerApp] Saving file at /app.py
+[I 2023-09-07 17:39:45.304 ServerApp] Saving file at /app.py
+2023-09-07 17:39:57.575789: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 17:39:57.649525: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 17:39:57.650519: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-07 17:39:58.611798: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[I 2023-09-07 17:42:54.075 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 17:44:58.734 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 17:47:03.700 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 17:49:09.741 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 17:51:14.724 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 17:53:19.324 ServerApp] Saving file at /EDA.ipynb
+ERROR:app:Exception on /predict [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "app.py", line 52, in predict
+    y = read_audio(data)
+  File "app.py", line 26, in read_audio
+    audio = np.frombuffer(data, dtype=np.float64)
+ValueError: buffer size must be a multiple of element size
+[I 2023-09-07 17:55:23.582 ServerApp] Saving file at /EDA.ipynb
+ERROR:app:Exception on /predict [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "app.py", line 52, in predict
+    y = read_audio(data)
+  File "app.py", line 26, in read_audio
+    audio = np.frombuffer(data, dtype=np.float64)
+ValueError: buffer size must be a multiple of element size
+ERROR:app:Exception on /predict [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "app.py", line 52, in predict
+    y = read_audio(data)
+  File "app.py", line 26, in read_audio
+    audio = np.frombuffer(data, dtype=np.float64)
+ValueError: buffer size must be a multiple of element size
+[I 2023-09-07 18:08:27.630 ServerApp] Saving file at /EDA.ipynb
+ERROR:app:Exception on /predict [POST]
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "app.py", line 52, in predict
+    y = read_audio(data)
+  File "app.py", line 26, in read_audio
+    audio = np.frombuffer(data, dtype=np.float64)
+ValueError: buffer size must be a multiple of element size
+[I 2023-09-07 20:09:30.465 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:09:30.631 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:09:53.095 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:09:53.258 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:17:23.548 ServerApp] Saving file at /app.py
+[I 2023-09-07 20:20:07.240 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:25:26.489 ServerApp] Saving file at /app.py
+[I 2023-09-07 20:30:07.514 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:30:40.181 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:31:26.561 ServerApp] Saving file at /app.py
+[I 2023-09-07 20:32:41.283 ServerApp] Saving file at /app.py
+[I 2023-09-07 20:32:41.500 ServerApp] Saving file at /app.py
+[I 2023-09-07 20:32:59.280 ServerApp] Saving file at /app.py
+[I 2023-09-07 20:32:59.469 ServerApp] Saving file at /app.py
+[I 2023-09-07 20:33:27.050 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:33:27.291 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:34:30.576 ServerApp] Saving file at /app.py
+[I 2023-09-07 20:34:36.813 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:34:36.988 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:34:37.141 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:35:10.014 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:35:10.195 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:37:10.296 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:37:10.895 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:37:11.114 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:38:22.441 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:38:22.530 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:38:22.821 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:39:05.578 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:39:05.773 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:39:26.650 ServerApp] Saving file at /app.py
+[I 2023-09-07 20:39:26.813 ServerApp] Saving file at /app.py
+[I 2023-09-07 20:39:26.997 ServerApp] Saving file at /app.py
+[I 2023-09-07 20:40:30.287 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 20:40:30.445 ServerApp] Saving file at /client_example.py
+[I 2023-09-07 21:11:36.547 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:11:41.558 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:11:41.851 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:11:42.425 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:14:40.442 ServerApp] 302 GET / (@167.94.146.60) 0.69ms
+[I 2023-09-07 21:14:40.519 ServerApp] 302 GET / (@167.94.146.60) 0.42ms
+[I 2023-09-07 21:14:40.599 ServerApp] Malformed HTTP message from 167.94.146.60: Malformed HTTP version in HTTP Request-Line: 'HTTP/2.0'
+[I 2023-09-07 21:14:40.683 LabApp] 302 GET /lab (@167.94.146.60) 0.72ms
+[I 2023-09-07 21:14:40.791 ServerApp] Malformed HTTP message from 167.94.146.60: Malformed HTTP version in HTTP Request-Line: 'HTTP/2.0'
+[I 2023-09-07 21:14:41.030 ServerApp] Malformed HTTP message from 167.94.146.60: Malformed HTTP version in HTTP Request-Line: 'HTTP/2.0'
+[I 2023-09-07 21:23:34.236 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:23:34.457 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:24:23.768 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:24:23.944 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:25:28.526 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:25:28.669 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:27:12.232 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:27:12.313 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:31:26.883 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 21:31:33.471 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:31:33.658 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:31:33.810 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:33:36.603 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 21:36:26.081 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:36:26.263 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:37:43.188 ServerApp] Saving file at /EDA.ipynb
+[I 2023-09-07 21:40:26.337 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:40:42.831 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:42:22.235 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:42:22.429 ServerApp] Saving file at /app.py
+[I 2023-09-07 21:42:22.511 ServerApp] Saving file at /app.py
+2023-09-07 21:42:35.604466: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 21:42:35.671572: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-09-07 21:42:35.672364: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-09-07 21:42:36.559780: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[I 2023-09-07 21:53:46.922 ServerApp] Starting buffering for 584e435b-bb11-4ebe-8867-f31ec6f23d95:ec0c168d-c4c1-4e7b-a61d-54b2069ea9e1
+[I 2023-09-07 21:59:06.480 ServerApp] Connecting to kernel 584e435b-bb11-4ebe-8867-f31ec6f23d95.
+[I 2023-09-07 21:59:06.480 ServerApp] Restoring connection for 584e435b-bb11-4ebe-8867-f31ec6f23d95:ec0c168d-c4c1-4e7b-a61d-54b2069ea9e1
+[I 2023-09-07 22:08:15.726 ServerApp] 302 GET / (@106.15.188.47) 0.71ms
+[I 2023-09-07 22:08:15.984 LabApp] 302 GET /lab? (@106.15.188.47) 0.89ms
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/dc39b259-f2ec-4c6c-923f-4bdbd859e744.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(None, 0), (None, 1), (None, 2), (0, 3), (None, 4), (None, 5), (None, 6), (1, 7), (2, 8), (None, 9), (None, 10), (None, 11), (3, 12), (4, 13), (5, 14), (6, 15), (7, 16), (8, 17), (9, 18), (10, 19), (11, 20), (12, 21), (None, 22), (13, 23), (14, 24), (15, 25), (16, 26), (17, None), (18, 27), (19, 28), (20, 29), (21, 30), (22, 31), (23, 32), (24, 33), (25, 34), (26, 35), (27, 36), (28, 37), (29, 38), (30, 39), (31, 40), (32, 41), (33, 42), (34, 43), (35, 44), (36, 45), (37, 46), (38, 47), (39, 48), (40, 49), (41, 50), (42, 51), (43, 52), (44, 53), (45, 54), (46, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=47
+len("".join(predicted_pitch))=72
+left_index=17, len(gt_pitches)=46
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/b69c847a-8f2c-4f41-8b6a-a3496b110b3f.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(None, 0), (None, 1), (None, 2), (0, 3), (None, 4), (None, 5), (None, 6), (1, 7), (2, 8), (None, 9), (None, 10), (None, 11), (3, 12), (4, 13), (5, 14), (6, 15), (7, 16), (8, 17), (9, 18), (10, 19), (11, 20), (12, 21), (None, 22), (13, 23), (14, 24), (15, 25), (16, 26), (17, None), (18, 27), (19, 28), (20, 29), (21, 30), (22, 31), (23, 32), (24, 33), (25, 34), (26, 35), (27, 36), (28, 37), (29, 38), (30, 39), (31, 40), (32, 41), (33, 42), (34, 43), (35, 44), (36, 45), (37, 46), (38, 47), (39, 48), (40, 49), (41, 50), (42, 51), (43, 52), (44, 53), (45, 54), (46, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=47
+len("".join(predicted_pitch))=72
+left_index=17, len(gt_pitches)=46
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/28722fdf-cc95-4ce6-8a12-100995bbd0ef.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(None, 0), (None, 1), (None, 2), (0, 3), (None, 4), (None, 5), (None, 6), (1, 7), (2, 8), (None, 9), (None, 10), (None, 11), (3, 12), (4, 13), (5, 14), (6, 15), (7, 16), (8, 17), (9, 18), (10, 19), (11, 20), (12, 21), (None, 22), (13, 23), (14, 24), (15, 25), (16, 26), (17, None), (18, 27), (19, 28), (20, 29), (21, 30), (22, 31), (23, 32), (24, 33), (25, 34), (26, 35), (27, 36), (28, 37), (29, 38), (30, 39), (31, 40), (32, 41), (33, 42), (34, 43), (35, 44), (36, 45), (37, 46), (38, 47), (39, 48), (40, 49), (41, 50), (42, 51), (43, 52), (44, 53), (45, 54), (46, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=47
+len("".join(predicted_pitch))=72
+left_index=17, len(gt_pitches)=46
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/916a6536-e232-4fa4-96e2-6259d916f423.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(None, 0), (None, 1), (None, 2), (0, 3), (None, 4), (None, 5), (None, 6), (1, 7), (2, 8), (None, 9), (None, 10), (None, 11), (3, 12), (4, 13), (5, 14), (6, 15), (7, 16), (8, 17), (9, 18), (10, 19), (11, 20), (12, 21), (None, 22), (13, 23), (14, 24), (15, 25), (16, 26), (17, None), (18, 27), (19, 28), (20, 29), (21, 30), (22, 31), (23, 32), (24, 33), (25, 34), (26, 35), (27, 36), (28, 37), (29, 38), (30, 39), (31, 40), (32, 41), (33, 42), (34, 43), (35, 44), (36, 45), (37, 46), (38, 47), (39, 48), (40, 49), (41, 50), (42, 51), (43, 52), (44, 53), (45, 54), (46, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=47
+len("".join(predicted_pitch))=72
+left_index=17, len(gt_pitches)=46
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/80305d34-a73d-4272-87a8-a7c55d8945fc.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(None, 0), (None, 1), (None, 2), (0, 3), (None, 4), (None, 5), (None, 6), (1, 7), (2, 8), (None, 9), (None, 10), (None, 11), (3, 12), (4, 13), (5, 14), (6, 15), (7, 16), (8, 17), (9, 18), (10, 19), (11, 20), (12, 21), (None, 22), (13, 23), (14, 24), (15, 25), (16, 26), (17, None), (18, 27), (19, 28), (20, 29), (21, 30), (22, 31), (23, 32), (24, 33), (25, 34), (26, 35), (27, 36), (28, 37), (29, 38), (30, 39), (31, 40), (32, 41), (33, 42), (34, 43), (35, 44), (36, 45), (37, 46), (38, 47), (39, 48), (40, 49), (41, 50), (42, 51), (43, 52), (44, 53), (45, 54), (46, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=47
+len("".join(predicted_pitch))=72
+left_index=17, len(gt_pitches)=46
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/4e30bf91-8db1-4cd3-af55-4349df54d77c.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/787ad73a-3afc-4861-a571-0bba588add48.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(None, 0), (None, 1), (None, 2), (0, 3), (None, 4), (None, 5), (None, 6), (1, 7), (2, 8), (None, 9), (None, 10), (None, 11), (3, 12), (4, 13), (5, 14), (6, 15), (7, 16), (8, 17), (9, 18), (10, 19), (11, 20), (12, 21), (None, 22), (13, 23), (14, 24), (15, 25), (16, 26), (17, None), (18, 27), (19, 28), (20, 29), (21, 30), (22, 31), (23, 32), (24, 33), (25, 34), (26, 35), (27, 36), (28, 37), (29, 38), (30, 39), (31, 40), (32, 41), (33, 42), (34, 43), (35, 44), (36, 45), (37, 46), (38, 47), (39, 48), (40, 49), (41, 50), (42, 51), (43, 52), (44, 53), (45, 54), (46, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=47
+len("".join(predicted_pitch))=72
+left_index=17, len(gt_pitches)=46
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/bf7f3936-2bd1-44a0-b35f-4e0c674077c6.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/49dd11df-8a81-47bc-87a6-6dd0ed35f1fa.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/da6ef68e-12ee-4b0e-824a-0a9e5591d41f.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/fc1277c9-ffe4-4b8c-a4a5-0247e1a7beeb.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/0af445b9-1bae-42fc-86b4-0454aacfb50e.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(None, 0), (None, 1), (None, 2), (0, 3), (None, 4), (None, 5), (None, 6), (1, 7), (2, 8), (None, 9), (None, 10), (None, 11), (3, 12), (4, 13), (5, 14), (6, 15), (7, 16), (8, 17), (9, 18), (10, 19), (11, 20), (12, 21), (None, 22), (13, 23), (14, 24), (15, 25), (16, 26), (17, None), (18, 27), (19, 28), (20, 29), (21, 30), (22, 31), (23, 32), (24, 33), (25, 34), (26, 35), (27, 36), (28, 37), (29, 38), (30, 39), (31, 40), (32, 41), (33, 42), (34, 43), (35, 44), (36, 45), (37, 46), (38, 47), (39, 48), (40, 49), (41, 50), (42, 51), (43, 52), (44, 53), (45, 54), (46, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=47
+len("".join(predicted_pitch))=72
+left_index=17, len(gt_pitches)=46
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/51750d53-51df-444e-a035-a6f2814d0a74.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/8b3786f0-bbb9-4b06-bce8-13460692988d.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/5a7d9b8d-b68f-41b8-b083-741a70f9e54b.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[I 2023-09-07 22:24:04.611 ServerApp] Starting buffering for 584e435b-bb11-4ebe-8867-f31ec6f23d95:ec0c168d-c4c1-4e7b-a61d-54b2069ea9e1
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/ac8ae75f-33cb-489c-a1df-63dec5d6bbad.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(None, 0), (None, 1), (None, 2), (0, 3), (None, 4), (None, 5), (None, 6), (1, 7), (2, 8), (None, 9), (None, 10), (None, 11), (3, 12), (4, 13), (5, 14), (6, 15), (7, 16), (8, 17), (9, 18), (10, 19), (11, 20), (12, 21), (None, 22), (13, 23), (14, 24), (15, 25), (16, 26), (17, None), (18, 27), (19, 28), (20, 29), (21, 30), (22, 31), (23, 32), (24, 33), (25, 34), (26, 35), (27, 36), (28, 37), (29, 38), (30, 39), (31, 40), (32, 41), (33, 42), (34, 43), (35, 44), (36, 45), (37, 46), (38, 47), (39, 48), (40, 49), (41, 50), (42, 51), (43, 52), (44, 53), (45, 54), (46, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=47
+len("".join(predicted_pitch))=72
+left_index=17, len(gt_pitches)=46
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/fc6af983-64f2-462f-8f9d-bd8ae767fc1c.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(None, 0), (None, 1), (None, 2), (0, 3), (None, 4), (None, 5), (None, 6), (1, 7), (2, 8), (None, 9), (None, 10), (None, 11), (3, 12), (4, 13), (5, 14), (6, 15), (7, 16), (8, 17), (9, 18), (10, 19), (11, 20), (12, 21), (None, 22), (13, 23), (14, 24), (15, 25), (16, 26), (17, None), (18, 27), (19, 28), (20, 29), (21, 30), (22, 31), (23, 32), (24, 33), (25, 34), (26, 35), (27, 36), (28, 37), (29, 38), (30, 39), (31, 40), (32, 41), (33, 42), (34, 43), (35, 44), (36, 45), (37, 46), (38, 47), (39, 48), (40, 49), (41, 50), (42, 51), (43, 52), (44, 53), (45, 54), (46, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=47
+len("".join(predicted_pitch))=72
+left_index=17, len(gt_pitches)=46
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/56d42328-9417-44f7-965c-6c0fc26abcad.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(None, 0), (None, 1), (None, 2), (0, 3), (None, 4), (None, 5), (None, 6), (1, 7), (2, 8), (None, 9), (None, 10), (None, 11), (3, 12), (4, 13), (5, 14), (6, 15), (7, 16), (8, 17), (9, 18), (10, 19), (11, 20), (12, 21), (None, 22), (13, 23), (14, 24), (15, 25), (16, 26), (17, None), (18, 27), (19, 28), (20, 29), (21, 30), (22, 31), (23, 32), (24, 33), (25, 34), (26, 35), (27, 36), (28, 37), (29, 38), (30, 39), (31, 40), (32, 41), (33, 42), (34, 43), (35, 44), (36, 45), (37, 46), (38, 47), (39, 48), (40, 49), (41, 50), (42, 51), (43, 52), (44, 53), (45, 54), (46, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=47
+len("".join(predicted_pitch))=72
+left_index=17, len(gt_pitches)=46
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/5a68a74d-a213-49ac-86cf-b219eea9e4e7.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(None, 0), (None, 1), (None, 2), (0, 3), (None, 4), (None, 5), (None, 6), (1, 7), (2, 8), (None, 9), (None, 10), (None, 11), (3, 12), (4, 13), (5, 14), (6, 15), (7, 16), (8, 17), (9, 18), (10, 19), (11, 20), (12, 21), (None, 22), (13, 23), (14, 24), (15, 25), (16, 26), (17, None), (18, 27), (19, 28), (20, 29), (21, 30), (22, 31), (23, 32), (24, 33), (25, 34), (26, 35), (27, 36), (28, 37), (29, 38), (30, 39), (31, 40), (32, 41), (33, 42), (34, 43), (35, 44), (36, 45), (37, 46), (38, 47), (39, 48), (40, 49), (41, 50), (42, 51), (43, 52), (44, 53), (45, 54), (46, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=47
+len("".join(predicted_pitch))=72
+left_index=17, len(gt_pitches)=46
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/b3fa5211-c50a-4126-b8fc-3e3c1ff1ba2d.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/c83b8ca1-a2f1-4f20-b4cf-6d5287d473ac.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/67fb428a-8a77-45ba-80f6-e1fdff91cd17.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(None, 0), (None, 1), (None, 2), (0, 3), (None, 4), (None, 5), (None, 6), (1, 7), (2, 8), (None, 9), (None, 10), (None, 11), (3, 12), (4, 13), (5, 14), (6, 15), (7, 16), (8, 17), (9, 18), (10, 19), (11, 20), (12, 21), (None, 22), (13, 23), (14, 24), (15, 25), (16, 26), (17, None), (18, 27), (19, 28), (20, 29), (21, 30), (22, 31), (23, 32), (24, 33), (25, 34), (26, 35), (27, 36), (28, 37), (29, 38), (30, 39), (31, 40), (32, 41), (33, 42), (34, 43), (35, 44), (36, 45), (37, 46), (38, 47), (39, 48), (40, 49), (41, 50), (42, 51), (43, 52), (44, 53), (45, 54), (46, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=47
+len("".join(predicted_pitch))=72
+left_index=17, len(gt_pitches)=46
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/33a65daa-b168-4c40-8310-8c5eac1df982.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(None, 0), (None, 1), (None, 2), (0, 3), (None, 4), (None, 5), (None, 6), (1, 7), (2, 8), (None, 9), (None, 10), (None, 11), (3, 12), (4, 13), (5, 14), (6, 15), (7, 16), (8, 17), (9, 18), (10, 19), (11, 20), (12, 21), (None, 22), (13, 23), (14, 24), (15, 25), (16, 26), (17, None), (18, 27), (19, 28), (20, 29), (21, 30), (22, 31), (23, 32), (24, 33), (25, 34), (26, 35), (27, 36), (28, 37), (29, 38), (30, 39), (31, 40), (32, 41), (33, 42), (34, 43), (35, 44), (36, 45), (37, 46), (38, 47), (39, 48), (40, 49), (41, 50), (42, 51), (43, 52), (44, 53), (45, 54), (46, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=47
+len("".join(predicted_pitch))=72
+left_index=17, len(gt_pitches)=46
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/36a1f3d6-3b32-407b-ab17-44e798db7100.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(None, 0), (None, 1), (None, 2), (0, 3), (None, 4), (None, 5), (None, 6), (1, 7), (2, 8), (None, 9), (None, 10), (None, 11), (3, 12), (4, 13), (5, 14), (6, 15), (7, 16), (8, 17), (9, 18), (10, 19), (11, 20), (12, 21), (None, 22), (13, 23), (14, 24), (15, 25), (16, 26), (17, None), (18, 27), (19, 28), (20, 29), (21, 30), (22, 31), (23, 32), (24, 33), (25, 34), (26, 35), (27, 36), (28, 37), (29, 38), (30, 39), (31, 40), (32, 41), (33, 42), (34, 43), (35, 44), (36, 45), (37, 46), (38, 47), (39, 48), (40, 49), (41, 50), (42, 51), (43, 52), (44, 53), (45, 54), (46, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=47
+len("".join(predicted_pitch))=72
+left_index=17, len(gt_pitches)=46
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/38c3e791-e658-4a59-b921-ac1f02639e25.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(None, 0), (None, 1), (None, 2), (0, 3), (None, 4), (None, 5), (None, 6), (1, 7), (2, 8), (None, 9), (None, 10), (None, 11), (3, 12), (4, 13), (5, 14), (6, 15), (7, 16), (8, 17), (9, 18), (10, 19), (11, 20), (12, 21), (None, 22), (13, 23), (14, 24), (15, 25), (16, 26), (17, None), (18, 27), (19, 28), (20, 29), (21, 30), (22, 31), (23, 32), (24, 33), (25, 34), (26, 35), (27, 36), (28, 37), (29, 38), (30, 39), (31, 40), (32, 41), (33, 42), (34, 43), (35, 44), (36, 45), (37, 46), (38, 47), (39, 48), (40, 49), (41, 50), (42, 51), (43, 52), (44, 53), (45, 54), (46, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=47
+len("".join(predicted_pitch))=72
+left_index=17, len(gt_pitches)=46
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/a6cbdbaf-b307-44b0-ad4d-e15524c3f0e5.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(None, 0), (None, 1), (None, 2), (0, 3), (None, 4), (None, 5), (None, 6), (1, 7), (2, 8), (None, 9), (None, 10), (None, 11), (3, 12), (4, 13), (5, 14), (6, 15), (7, 16), (8, 17), (9, 18), (10, 19), (11, 20), (12, 21), (None, 22), (13, 23), (14, 24), (15, 25), (16, 26), (17, None), (18, 27), (19, 28), (20, 29), (21, 30), (22, 31), (23, 32), (24, 33), (25, 34), (26, 35), (27, 36), (28, 37), (29, 38), (30, 39), (31, 40), (32, 41), (33, 42), (34, 43), (35, 44), (36, 45), (37, 46), (38, 47), (39, 48), (40, 49), (41, 50), (42, 51), (43, 52), (44, 53), (45, 54), (46, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=47
+len("".join(predicted_pitch))=72
+left_index=17, len(gt_pitches)=46
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/149ac69b-e19d-42e0-a129-025deedebec7.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(None, 0), (None, 1), (None, 2), (0, 3), (None, 4), (None, 5), (None, 6), (1, 7), (2, 8), (None, 9), (None, 10), (None, 11), (3, 12), (4, 13), (5, 14), (6, 15), (7, 16), (8, 17), (9, 18), (10, 19), (11, 20), (12, 21), (None, 22), (13, 23), (14, 24), (15, 25), (16, 26), (17, None), (18, 27), (19, 28), (20, 29), (21, 30), (22, 31), (23, 32), (24, 33), (25, 34), (26, 35), (27, 36), (28, 37), (29, 38), (30, 39), (31, 40), (32, 41), (33, 42), (34, 43), (35, 44), (36, 45), (37, 46), (38, 47), (39, 48), (40, 49), (41, 50), (42, 51), (43, 52), (44, 53), (45, 54), (46, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=47
+len("".join(predicted_pitch))=72
+left_index=17, len(gt_pitches)=46
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/f64240d3-12a6-4e2b-957f-91182fecd94c.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(None, 0), (None, 1), (None, 2), (0, 3), (None, 4), (None, 5), (None, 6), (1, 7), (2, 8), (None, 9), (None, 10), (None, 11), (3, 12), (4, 13), (5, 14), (6, 15), (7, 16), (8, 17), (9, 18), (10, 19), (11, 20), (12, 21), (None, 22), (13, 23), (14, 24), (15, 25), (16, 26), (17, None), (18, 27), (19, 28), (20, 29), (21, 30), (22, 31), (23, 32), (24, 33), (25, 34), (26, 35), (27, 36), (28, 37), (29, 38), (30, 39), (31, 40), (32, 41), (33, 42), (34, 43), (35, 44), (36, 45), (37, 46), (38, 47), (39, 48), (40, 49), (41, 50), (42, 51), (43, 52), (44, 53), (45, 54), (46, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=47
+len("".join(predicted_pitch))=72
+left_index=17, len(gt_pitches)=46
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/5cdca953-7442-425b-b7fe-9c34e13ab661.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(None, 0), (None, 1), (None, 2), (0, 3), (None, 4), (None, 5), (None, 6), (1, 7), (2, 8), (None, 9), (None, 10), (None, 11), (3, 12), (4, 13), (5, 14), (6, 15), (7, 16), (8, 17), (9, 18), (10, 19), (11, 20), (12, 21), (None, 22), (13, 23), (14, 24), (15, 25), (16, 26), (17, None), (18, 27), (19, 28), (20, 29), (21, 30), (22, 31), (23, 32), (24, 33), (25, 34), (26, 35), (27, 36), (28, 37), (29, 38), (30, 39), (31, 40), (32, 41), (33, 42), (34, 43), (35, 44), (36, 45), (37, 46), (38, 47), (39, 48), (40, 49), (41, 50), (42, 51), (43, 52), (44, 53), (45, 54), (46, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=47
+len("".join(predicted_pitch))=72
+left_index=17, len(gt_pitches)=46
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/8b03f9be-28b1-4c46-b3d8-cc18c2c62310.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(None, 0), (None, 1), (None, 2), (0, 3), (None, 4), (None, 5), (None, 6), (1, 7), (2, 8), (None, 9), (None, 10), (None, 11), (3, 12), (4, 13), (5, 14), (6, 15), (7, 16), (8, 17), (9, 18), (10, 19), (11, 20), (12, 21), (None, 22), (13, 23), (14, 24), (15, 25), (16, 26), (17, None), (18, 27), (19, 28), (20, 29), (21, 30), (22, 31), (23, 32), (24, 33), (25, 34), (26, 35), (27, 36), (28, 37), (29, 38), (30, 39), (31, 40), (32, 41), (33, 42), (34, 43), (35, 44), (36, 45), (37, 46), (38, 47), (39, 48), (40, 49), (41, 50), (42, 51), (43, 52), (44, 53), (45, 54), (46, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=47
+len("".join(predicted_pitch))=72
+left_index=17, len(gt_pitches)=46
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/9e623b2b-a177-46ec-8280-60982e56e46d.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/bfb023c3-fd1a-4168-a8ac-27acd7efcd50.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/77707d10-62fb-4537-b411-c96b1247cbf5.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/74d3c08a-7137-4b77-b9d6-f606d09dfe9b.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/044a3dc1-db36-4fc0-9681-c64281c5517f.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/9447abd9-df69-408e-aba6-92caa734bec7.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/022ae234-9dec-49b2-aae8-f9deb5836b8f.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/eb016a6c-223e-4e11-9b60-1be0fa1cb40c.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/4012a037-2acc-4a33-9078-161f1cb55c5d.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/6d27eb42-e02a-4cee-9346-37f96c2f05dc.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/882a424f-7411-4563-9632-b5f1a0fa05b1.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/efe9cb40-d5c2-4961-80f9-3accb2becc0b.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+left_index=53, len(gt_pitches)=76
+left_index=54, len(gt_pitches)=76
+left_index=55, len(gt_pitches)=76
+left_index=56, len(gt_pitches)=76
+left_index=60, len(gt_pitches)=76
+left_index=61, len(gt_pitches)=76
+left_index=62, len(gt_pitches)=76
+left_index=63, len(gt_pitches)=76
+left_index=72, len(gt_pitches)=76
+left_index=74, len(gt_pitches)=76
+left_index=75, len(gt_pitches)=76
+621314
+type(data)=<class 'bytes'>
+samplerate=16000
+audio.ndim=1
+Predicting MIDI for /tmp/8e755cbf-6664-4df7-9922-a715d92ce91f.wav...
+len(note_events)=55
+{'H': 'A#', 'I': 'B#', 'G': 'C#', 'K': 'D#', 'L': 'E#', 'M': 'F#', 'O': 'G#'}
+[(0, None), (1, 0), (2, 1), (3, 2), (4, 3), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (11, 10), (12, 11), (13, None), (14, 12), (15, 13), (16, 14), (17, 15), (18, 16), (19, 17), (20, 18), (21, 19), (22, 20), (23, 21), (24, 22), (25, 23), (26, 24), (27, 25), (28, 26), (29, 27), (30, 28), (31, 29), (32, 30), (33, None), (34, None), (35, 31), (36, 32), (37, None), (38, 33), (39, 34), (40, None), (41, 35), (42, 36), (43, 37), (44, None), (45, None), (46, 38), (47, 39), (48, 40), (49, None), (50, None), (51, 41), (52, 42), (53, None), (54, None), (55, None), (56, None), (57, 43), (58, 44), (59, 45), (60, None), (61, None), (62, None), (63, None), (64, 46), (65, 47), (66, 48), (67, 49), (68, 50), (69, 51), (70, 52), (71, 53), (72, None), (73, 54), (74, None), (75, None)]
+predicted_pitch=['A', 'A#', 'A#', 'A', 'A', 'A', 'A', 'A#', 'A', 'A', 'A#', 'A', 'D', 'E', 'F', 'D', 'A', 'A#', 'A', 'E', 'F', 'C#', 'C#', 'E', 'A', 'A#', 'A', 'E', 'F', 'C#', 'A', 'A#', 'A', 'D', 'D#', 'D', 'A', 'A#', 'C', 'A', 'D', 'D#', 'D', 'C#', 'A', 'A#', 'D', 'C', 'A#', 'D', 'A', 'F', 'E', 'C#', 'E']
+len("".join(gt_pitches))=76
+len("".join(predicted_pitch))=72
+left_index=0, len(gt_pitches)=76
+left_index=13, len(gt_pitches)=76
+left_index=33, len(gt_pitches)=76
+left_index=34, len(gt_pitches)=76
+left_index=37, len(gt_pitches)=76
+left_index=40, len(gt_pitches)=76
+left_index=44, len(gt_pitches)=76
+left_index=45, len(gt_pitches)=76
+left_index=49, len(gt_pitches)=76
+left_index=50, len(gt_pitches)=76
+[C 2023-09-08 01:09:34.499 ServerApp] received signal 15, stopping
+[I 2023-09-08 01:09:34.522 ServerApp] Shutting down 4 extensions
+[I 2023-09-08 01:09:34.524 ServerApp] EOF on FD 14; stopping reading
+[I 2023-09-08 01:09:34.627 ServerApp] Terminal 2 closed
+[I 2023-09-08 01:09:34.627 ServerApp] EOF on FD 16; stopping reading
+[I 2023-09-08 01:09:34.728 ServerApp] Terminal 1 closed
+[I 2023-09-08 01:09:34.729 ServerApp] Shutting down 1 kernel
+[I 2023-09-08 01:09:34.729 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[I 2023-09-08 01:09:34.740 ServerApp] Kernel shutdown: 584e435b-bb11-4ebe-8867-f31ec6f23d95
+[E 2023-09-08 01:09:34.741 ServerApp] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x7f9b9392d160>>, <Task finished name='Task-105539' coro=<ServerApp._stop() done, defined at /root/miniconda3/envs/pixai/lib/python3.8/site-packages/jupyter_server/serverapp.py:2955> exception=InvalidStateError('Exception is not set.')>)
+    Traceback (most recent call last):
+      File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/tornado/ioloop.py", line 738, in _run_callback
+        ret = callback()
+      File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/tornado/ioloop.py", line 762, in _discard_future_result
+        future.result()
+      File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/jupyter_server/serverapp.py", line 2957, in _stop
+        await self._cleanup()
+      File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/jupyter_server/serverapp.py", line 2909, in _cleanup
+        await self.cleanup_kernels()
+      File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/jupyter_server/serverapp.py", line 2607, in cleanup_kernels
+        await ensure_async(self.kernel_manager.shutdown_all())
+      File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/jupyter_client/multikernelmanager.py", line 359, in _async_shutdown_all
+        await asyncio.gather(*futs)
+      File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 431, in _async_shutdown_kernel
+        return await self.pinned_superclass._async_shutdown_kernel(
+      File "/root/miniconda3/envs/pixai/lib/python3.8/site-packages/jupyter_client/multikernelmanager.py", line 310, in _async_shutdown_kernel
+        if not km.ready.cancelled() and km.ready.exception():
+    asyncio.exceptions.InvalidStateError: Exception is not set.

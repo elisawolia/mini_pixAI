@@ -40,7 +40,7 @@ public class MainController {
      * Контроллер для получения списка песен
      */
     @GetMapping(MainController.GET_SONGS)
-    @CrossOrigin(origins = "http://localhost:3000")
+    @CrossOrigin(origins = "http://95.163.229.127:3000")
     public SongResponse getSongs() {
         System.out.println("MainController::getSongs");
         return songService.readSongs();
@@ -55,7 +55,7 @@ public class MainController {
      * @return сгенерированное видео
      */
     @PostMapping(value = MainController.CHECK, consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
-    @CrossOrigin(origins = "http://localhost:3000")
+    @CrossOrigin(origins = "http://95.163.229.127:3000")
     public ResponseEntity<byte[]> check(@RequestParam(value="songId") Integer songId,
                                         @RequestParam(value="animal") String animal,
                                         @RequestParam(value="color") String color,
