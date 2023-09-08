@@ -23,19 +23,7 @@ from utils import diez_map, diez_map_invert, needleman_wunsch
 
 def read_audio(audio_bytes):
     data = base64.b64decode(audio_bytes.encode())
-    print(len(data))
-    print(f"{type(data)=}")
     audio, samplerate = sf.read(io.BytesIO(data))
-    print(f"{samplerate=}")
-
-    # audio = np.frombuffer(data, dtype=np.float64)
-    # print(audio.shape)
-    #print(audio)
-    #print(len(audio))
-    # audio = (audio * 2**15).astype(np.int16)
-    # if audio.ndim == 2:
-    #     audio = audio[:, 0]
-    print(f"{audio.ndim=}")
     return audio, samplerate
 
 
@@ -61,7 +49,6 @@ if __name__ == "__main__":
             filename =  f"/tmp/{str(uuid.uuid4())}.wav" 
             sf.write(filename, y, SAMPLE_RATE)
             model_output, midi_data, note_events = pitch_predict(filename, basic_pitch_model)
-            print(f"{len(note_events)=}")
             sorted_notes = sorted(note_events, key=lambda x: x[0])
             predicted_pitches = [(start_time, end_time, pretty_midi.note_number_to_name(pitch_num)[:-1]) 
                             for start_time, end_time, pitch_num, _, _ in sorted_notes]            
@@ -73,16 +60,9 @@ if __name__ == "__main__":
                     predicted_pitch[i] = diez_map[pitch]
             alignment = needleman_wunsch("".join(gt_pitches), "".join(predicted_pitch))
 
-            print(diez_map_invert)
             for i, pitch in enumerate(predicted_pitch):
                 if pitch in diez_map_invert:
                     predicted_pitch[i] = diez_map_invert[pitch]
-                    
-            print(alignment)
-            print(f"{predicted_pitch=}")
-            print(f'{len("".join(gt_pitches))=}')
-            print(f'{len("".join(predicted_pitch))=}')
-            
             errors = [] 
             left_time = 0
             for i, (left_index, right_index) in enumerate(alignment):
@@ -103,8 +83,6 @@ if __name__ == "__main__":
                             if next_note_index is not None:
                                 right_time = unique_pitches[next_note_index][0]
                                 break
-                        # right_time =  unique_pitches[alignment[i + 1][1]][0]
-                    print(f"{left_index=}, {len(gt_pitches)=}")
                     errors.append({"timestamp":  (left_time, right_time),
                             "note": gt_pitches[left_index],
                                    "is_played": False})
